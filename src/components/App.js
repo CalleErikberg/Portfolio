@@ -1,0 +1,18 @@
+import React, { Component } from "react";
+import BackToTop from "react-back-to-top"
+ 
+class App extends Component {
+  render() {
+    return (
+      <BackToTop
+        showOnScrollUp
+        showAt={100}
+        speed={1500}
+        easing="easeInOutQuint"
+      >
+        <span>Scroll Up</span>
+      </BackToTop>
+    );
+  }
+}
+
