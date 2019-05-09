@@ -16,22 +16,24 @@ class Intro extends Component {
       height: '1080',
       width: '1920',
       loop: '1',
-      playlist: 'i_mcY2DsIjA',
+      playlist: '7ZWgBbKItEw',
       rel: 0,
         controls: 0,
         playsinline: 1,
         frameborder: 0,
         allowfullscreen: 1,
+        autobuffer: 1,
       playerVars: { // https://developers.google.com/youtube/player_parameters
         enablejsapi: 1,
         autoplay: 1,
         loop: 1,
-        playlist: 'i_mcY2DsIjA',
+        playlist: '7ZWgBbKItEw',
         rel: 0,
         controls: 0,
         playsinline: 1,
         frameborder: 0,
-        allowfullscreen: 1
+        allowfullscreen: 1,
+        autobuffer: 1
       }
     };
     return (
