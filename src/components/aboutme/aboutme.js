@@ -4,7 +4,7 @@ import React, { Component } from "react"
 class AboutMe extends Component {
   render() {
     return (
-        <div className="about">
+        <div className="about" id="about">
         <div className="row">
           <div className="columnA">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">

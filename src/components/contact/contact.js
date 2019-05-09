@@ -4,7 +4,7 @@ import React, { Component } from "react"
 class Contact extends Component {
   render() {
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
         <h2>Contact me!</h2>
         <p>
           ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd

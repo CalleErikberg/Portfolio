@@ -4,7 +4,7 @@ import Card from "./card"
 class Cards extends Component {
   render() {
     return (
-      <div className="content">
+      <div className="content" id="portfolio">
         <h1>Portfolio</h1>
         <p className="intro-portfolio">
           Below are my design projects, sorted into thumbnails. Click on them to

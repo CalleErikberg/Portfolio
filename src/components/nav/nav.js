@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
+import { Link } from "react-scroll";
 
 class Nav extends Component {
   render() {
@@ -11,14 +11,31 @@ class Nav extends Component {
           </svg>
         </div>
         <div className="topnav">
-     
-            <Link to="/contact/">Portfolio</Link>
-      
-          
-            <Link to="/contact/">About</Link>
-         
-          
-            <Link to="/contact/">Contact</Link>
+        <Link  activeClass="active"
+    to="portfolio"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration= {400}>
+   Portfolio
+    </Link>
+    <Link  activeClass="active"
+    to="about"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration= {400}>
+   About
+    </Link>
+    <Link  activeClass="active"
+    to="contact"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration= {400}>
+   Contact
+    </Link>
+           
          
         </div>
       </div>
