@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 :root {
   --mainColor: #ff9800;
 }
@@ -14,6 +15,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   fill: white;
+  overflow: hidden;
 }
 .fixedButton svg {
   z-index: 6;
@@ -51,7 +53,7 @@ body {
   background-color: rgb(34, 39, 82);
   align-items: center;
   margin-top: 0;
- max-height: 4rem;
+  max-height: 4rem;
 }
 .topnav {
  padding-right: 3rem;
@@ -116,7 +118,7 @@ body {
   color: white;
   background-color: rgb(34, 39, 82);
   flex-direction: column;
-  background-image: url(https://cdn.cnn.com/cnnnext/dam/assets/170407220916-04-iconic-mountains-matterhorn-restricted.jpg);
+  background-image: url(https://images.pexels.com/photos/836781/pexels-photo-836781.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
 /* Style the contact */
 .contact {
@@ -126,6 +128,7 @@ body {
   color: white;
   background-color: rgb(34, 39, 82);
   flex-direction: column;
+  
 }
 .intro-portfolio {
   font-size: 130%;
@@ -146,7 +149,7 @@ a {
 }
 
 .container {
-  margin: 2% 3% 0;
+  margin: 2% 2% 0;
   border-style: solid;
   border-width: 4px;
   background-color: white;
@@ -172,7 +175,7 @@ a {
   /*transform: translateY(-18px);*/
   transform: scale(1.03);
   -webkit-transform: scale(1.03);
-  box-shadow: 0 0.4rem 0.13rem 0.1rem rgb(44, 45, 54);
+  box-shadow: 0 0.4rem 0.13rem 0.1rem rgba(230, 229, 229, 0.308);;
 }
 
 #content {
@@ -235,7 +238,18 @@ a {
   text-shadow: 0.1px 0.2px black;
   display: -webkit-flex;
   display: flex;
-  background-image: url(https://cdn.cnn.com/cnnnext/dam/assets/170407220916-04-iconic-mountains-matterhorn-restricted.jpg);
+ /*background-image: url(https://images.pexels.com/photos/836781/pexels-photo-836781.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);*/
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.rowA {
+  text-shadow: 0.1px 0.2px black;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
 }
 
 /* Create equal columns that sits next to each other */
@@ -253,6 +267,17 @@ a {
   max-width: 50%;
   margin-top: 4rem;
 }
+/* Column to the right*/
+.column2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0.7rem;
+  max-width: 50%;
+  color: white;
+  font-size: 130%;
+  margin-top: 4rem;
+}
 /*About*/
 .columnA {
   -webkit-flex: 1;
@@ -265,17 +290,7 @@ a {
   padding: 1.1rem;
   max-width: 50%;
 }
-/* Column to the right*/
-.column2 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  padding: 0.7rem;
-  max-width: 50%;
-  color: white;
-  font-size: 130%;
-  margin-top: 4rem;
-}
+
 /*About*/
 .columnA2 {
   -webkit-flex: 1;
@@ -293,3 +308,23 @@ a {
   padding: 0.7rem;
   margin-bottom: 0px;
 }
+/* On screens that are 700px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 820px) {
+  .row {
+     flex-direction: column;
+}
+}
+/*----------------------------------------------------*/
+.YouTube{
+  pointer-events: none;
+  position: fixed;
+  top: 50%; 
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 100%; 
+  min-height: 100%; 
+  z-index: -1000; 
+  background-size: cover;
+}
+

@@ -19,7 +19,8 @@
     "react-back-to-top-button": "0.0.14",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
-    "react-scroll": "^1.7.11"
+    "react-scroll": "^1.7.11",
+    "react-youtube": "^7.9.0"
   },
   "devDependencies": {
     "prettier": "^1.16.4"
