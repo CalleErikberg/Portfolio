@@ -51,15 +51,19 @@ body {
   display: -webkit-flex;
   overflow: hidden;
   max-height: 250px;
-  background-color: rgb(34, 39, 82);
-  flex-direction: row nowrap;
+  background-color: rgba(34, 39, 82, 0.623);
   justify-content: center;
-  align-items: center;
-  
+  position: fixed;
+  margin-right: 48%;
+  margin-left: 40%;
+  border-radius: 0.8rem;
+  margin-top: 0; 
 }
 /* Style the topnav links */
 .topnav a{
-
+  
+  flex-direction: row nowrap;
+  align-items: center;
   cursor: pointer;
   color: #fff;
   padding: 17px;
@@ -222,10 +226,9 @@ a {
   text-shadow: 0.1px 0.2px black;
   display: -webkit-flex;
   display: flex;
- /*background-image: url(https://images.pexels.com/photos/836781/pexels-photo-836781.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);*/
   flex-direction: row;
   flex-wrap: wrap;
-  
+ 
 }
 .rowA {
   text-shadow: 0.1px 0.2px black;
@@ -242,14 +245,16 @@ a {
   -ms-flex: 1;
   flex: 1;
   padding: 0.7rem;
-  max-width: 50%;
-  margin-top: 4rem;
+  
+
 }
 /* Bild i vänster-column*/
 .column1 svg {
   padding: 1.1rem;
-  max-width: 50%;
+  height: 100%;
+  width: 100%;
   margin-top: 4rem;
+
 }
 /* Column to the right*/
 .column2 {
@@ -300,12 +305,6 @@ a {
 }
 /*----------------------------------------------------*/
 .YouTube{
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s; /* Firefox < 16 */
-   -ms-animation: fadein 2s; /* Internet Explorer */
-    -o-animation: fadein 2s; /* Opera < 12.1 */
-       animation: fadein 2s;
-
   pointer-events: none;
   position: fixed;
   top: 50%; 
@@ -317,25 +316,4 @@ a {
   z-index: -1000; 
   background-size: cover;
 }
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
 
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}

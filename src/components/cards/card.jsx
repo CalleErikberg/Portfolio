@@ -25,7 +25,7 @@ window.onclick = function (event) {
     return (
       <div className="container">
         <div className="front">
-            <img id="open-modal" onClick={() => this.openModal()} src={this.props.pic} />
+        <img id="open-modal" onClick={() => this.openModal()} src={this.props.pic} />
           <div id="myModal" class="modal">
             <div class="modal-content">
               <h3 className="caption">{this.props.title}</h3>
