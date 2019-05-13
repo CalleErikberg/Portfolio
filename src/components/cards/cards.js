@@ -7,8 +7,7 @@ class Cards extends Component {
       <div className="content" id="portfolio">
         <h1>Portfolio</h1>
         <p className="intro-portfolio">
-          Below are my design projects, sorted into thumbnails. Click on them to
-          get the full specification.
+          Below are my design projects, sorted into thumbnails. Click on them for the details.
         </p>
         <div id="content">
           <Card

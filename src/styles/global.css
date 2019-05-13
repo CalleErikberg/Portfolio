@@ -97,6 +97,9 @@ body {
   color: white;
   background-color: #242621;
   text-align: center;
+  border-top: 0.3rem solid #E9F1F2;
+  border-bottom: 0.3rem solid #E9F1F2;
+ 
 }
 
 /* Style the contact */
@@ -107,6 +110,8 @@ body {
   color: white;
   background-color: #242621;
   flex-direction: column;
+  border-top: 0.3rem solid #E9F1F2;
+  border-bottom: 0.3rem solid #E9F1F2;
   
 }
 .intro-portfolio {
@@ -138,10 +143,19 @@ a {
   max-width: 350px;
   line-height: 1.4rem;
 
+  animation: fade-in 4s;
   transition: 0.2s;
   -webkit-transition: 0.2s;
   transition-timing-function: ease-out;
   -webkit-transition-timing-function: ease-out;
+}
+@keyframes fade-in {
+  from {opacity: 0; margin: 0 0 0;}
+  to {opacity: 1; margin: 2% 2% 0}
+}
+
+.hidden {
+  opacity: 0;
 }
 .info {
   margin-bottom: 0.5rem;
@@ -154,7 +168,7 @@ a {
   transform: translateY(-18px);
   transform: scale(1.03);
   -webkit-transform: scale(1.03);
-  box-shadow: 0 0.4rem 0.13rem 0.1rem rgba(230, 229, 229, 0.308);;
+  box-shadow: 0 0.4rem 0.8rem 0.1rem rgba(230, 229, 229, 0.308);;
 }
 
 #content {
@@ -166,6 +180,7 @@ a {
   text-align: center;
   height: 100%;
   min-width: 0;
+  
 }
 
 #content img {
@@ -253,12 +268,15 @@ a {
 /* Style the about me */
 .about {
   text-shadow: 0.1px 0.2px black;
-  display: flex;
-  display: -webkit-flex;
   background-color: #ddd;
   padding: 0.7rem;
   color: white;
   background-color: #242621;  
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-between;
   flex-direction: row;
 }
 .columnA {
@@ -311,4 +329,3 @@ a {
   z-index: -1000; 
   background-size: cover;
 }
-
