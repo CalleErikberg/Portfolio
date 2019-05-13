@@ -5,6 +5,7 @@
   scroll-behavior: smooth;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 :root {
@@ -15,7 +16,20 @@ body {
   font-family: "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   fill: #ff9800;
-  overflow: hidden;
+  overflow-x: hidden;
+}
+/*----------------------------------------------------*/
+.YouTube{
+  pointer-events: none;
+  position: fixed;
+  top: 50%; 
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 100%; 
+  min-height: 100%; 
+  z-index: -1000; 
+  background-size: cover;
 }
 .fixedButton svg {
   z-index: 6;
@@ -49,15 +63,16 @@ body {
   padding: 0 2% 0 2%;
   display: flex;
   display: -webkit-flex;
-  overflow: hidden;
+  overflow-x: hidden;
   max-height: 250px;
-  background-color: #24262179;
+  background-color: #4D6173;
   justify-content: center;
   position: fixed;
   margin-right: 48%;
   margin-left: 40%;
   border-radius: 0.8rem;
   margin-top: 0; 
+  z-index: 999;
 }
 /* Style the topnav links */
 .topnav a{
@@ -274,30 +289,24 @@ a {
   background-color: #242621;  
   display: flex;
   display: -webkit-flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
+  align-content: center;
+  flex-wrap: nowrap;
 }
 .columnA {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
   padding: 0.7rem;
   max-width: 50%;
+
 
 }
 .columnA img {
   padding: 1.1rem;
-  max-width: 50%;
  
 }
 
 /*About*/
 .columnA2 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
   padding: 0.7rem;
   max-width: 50%;
   color: white;
@@ -315,17 +324,4 @@ a {
   .row {
      flex-direction: column;
 }
-}
-/*----------------------------------------------------*/
-.YouTube{
-  pointer-events: none;
-  position: fixed;
-  top: 50%; 
-  left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  min-width: 100%; 
-  min-height: 100%; 
-  z-index: -1000; 
-  background-size: cover;
 }

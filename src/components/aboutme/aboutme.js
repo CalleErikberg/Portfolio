@@ -1,42 +1,33 @@
 import React, { Component } from "react"
 
-
 class AboutMe extends Component {
   render() {
     return (
-        <div className="about" id="about">
-          <div className="columnA">
-            <img src="https://66.media.tumblr.com/2267ed9b7d81015cc7293c164eab097e/tumblr_prams04kgs1u1ubrxo1_540.png"></img>
-            </div>
-          <div className="columnA2">
-            <h2>About me!</h2>
-            <p>
-              My name is Erik Calleberg, I am 22 years old and I grew up in
-              Stockholm, Sweden loving playing video games, the outdoors and the
-              feeling of accomplishment. I play mostly multiplayer games and they
-              are much about competing with other players, because I like to get
-              better at the things I like to do. The same goes for competing in
-              orienteering, it’s a very individual sport and the only one you can
-              rely on during a race is yourself. What I strive for in life is
-              accomplishing my tasks and improving off of them.
-              <br /> <br />
-              My experiences with learning Design and UX/UI have been very
-              insightful and interesting. The courses have made me realize the
-              importance of Design Processes through many projects and processes.
-              I resently finished a three-year program in IT, media and design.
-              What I have found most interesting during my studies is UX, UI,
-              design methods (design thinking) and design theories (like what
-              makes a design work and why). The projects have all been about
-              empathy with customers, define the problem that needs to be solved,
-              start brainstorming ideas on how to solve them, create prototypes
-              and test the solutions (Design Thinking). During these projects, the
-              prototypes can range from everything from sketching on paper to
-              creating prototypes in Adobe XD or Adobe Illustrator. I have basic
-              skills in Adobe Illustrator, Sony Vegas Pro 13, Java, PHP, SQL and
-              HTML + CSS.
-            </p>
-          </div>
+      <div className="about" id="about">
+        <div className="columnA">
+          <img src="https://www.yugiohcardmaker.net/ycmaker/createcard.php?name=Erik+Calleberg&cardtype=Monster&subtype=effect&attribute=Earth&level=4&rarity=Ultimate+Rare&picture=tempimages%2F268595861.jpg&circulation=UX-Kit&set1=5&set2=19&type=UX-Designer&carddescription=At+the+start+of+a+Design+Project%2C+if+this+card+is+face-up%2C+this+card+makes+sure+as+many+details+of+the+project+is+accounted+for.+During+the+main+stage+this+card+gains+motivation+to+brainstorm+and+figure+out+new+solutions+after+iterations+and+workshops.&atk=1400&def=2200&creator=EC&year=2019&serial=85474475" />
         </div>
+        
+        <div className="columnA2">
+          <h2>An UX-Designer and Front-End developer</h2>
+          <p>
+            I am Erik Calleberg and you are probably seeing this page because
+            you want to know what kind of person I am and what my interests are.
+            Considering this page’s theme I’m kind of nerd. My interests involve
+            PC-gaming and to balance that with some outdoors I practise
+            orienteering and mixing that with some regular exercise. Also
+            memes are fun.
+            <br /> <br />
+            As for my experience with Design, the best part of design is the
+            process from an idea to a fully-fledged prototype to deliver and
+            especially the UX/UI aspects of a project. Although my primary focus
+            is the Design-world I did manage to code this website from scratch
+            with Gatsby.js built with React.js and Node.js if you specialize more 
+            in Front-end development. You won't be dissatisfied if you add me to
+            your deck!          
+          </p>
+        </div>
+      </div>
     )
   }
 }
