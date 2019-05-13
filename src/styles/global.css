@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  font-family: "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   scroll-behavior: smooth;
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@
 }
 body {
   margin: 0;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  font-family: "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   fill: #ff9800;
   overflow: hidden;
@@ -51,7 +51,7 @@ body {
   display: -webkit-flex;
   overflow: hidden;
   max-height: 250px;
-  background-color: rgba(34, 39, 82, 0.623);
+  background-color: #24262179;
   justify-content: center;
   position: fixed;
   margin-right: 48%;
@@ -95,26 +95,17 @@ body {
   background-color: #ddd;
   padding: 0.7rem;
   color: white;
-  background-color: rgb(34, 39, 82);
+  background-color: #242621;
   text-align: center;
 }
-/* Style the about me */
-.about {
-  display: flex;
-  background-color: #ddd;
-  padding: 0.7rem;
-  color: white;
-  background-color: rgb(34, 39, 82);
-  flex-direction: column;
-  background-image: url(https://images.pexels.com/photos/836781/pexels-photo-836781.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-}
+
 /* Style the contact */
 .contact {
   display: flex;
   background-color: #ddd;
   padding: 0.7rem;
   color: white;
-  background-color: rgb(34, 39, 82);
+  background-color: #242621;
   flex-direction: column;
   
 }
@@ -160,7 +151,7 @@ a {
 }
 
 .container:hover {
-  /*transform: translateY(-18px);*/
+  transform: translateY(-18px);
   transform: scale(1.03);
   -webkit-transform: scale(1.03);
   box-shadow: 0 0.4rem 0.13rem 0.1rem rgba(230, 229, 229, 0.308);;
@@ -184,21 +175,19 @@ a {
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
+  position: absolute; /* Stay in place */
   z-index: 6; /* Sit on top */
   padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
+  width: 100rem; /* Full width */
+  height: 10rem; /* Full height */ /* Enable scroll if needed */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
 /* Modal Content */
 .modal-content {
-  background-color: #fefefe;
+  background-color: #E9F1F2;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
@@ -230,14 +219,7 @@ a {
   flex-wrap: wrap;
  
 }
-.rowA {
-  text-shadow: 0.1px 0.2px black;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  
-}
+
 
 /* Create equal columns that sits next to each other */
 .column1 {
@@ -268,16 +250,29 @@ a {
   margin-top: 4rem;
 }
 /*About*/
+/* Style the about me */
+.about {
+  text-shadow: 0.1px 0.2px black;
+  display: flex;
+  display: -webkit-flex;
+  background-color: #ddd;
+  padding: 0.7rem;
+  color: white;
+  background-color: #242621;  
+  flex-direction: row;
+}
 .columnA {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   padding: 0.7rem;
   max-width: 50%;
+
 }
-.columnA svg {
+.columnA img {
   padding: 1.1rem;
   max-width: 50%;
+ 
 }
 
 /*About*/
