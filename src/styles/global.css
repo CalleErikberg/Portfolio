@@ -1,24 +1,25 @@
 * {
   box-sizing: border-box;
-  font-family: "Lucida Sans Unicode", "Lucida Grande",
+  font-family: 'Roboto', sans-serif, "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   scroll-behavior: smooth;
   background-repeat: no-repeat;
   background-size: cover;
 
 }
-
+@import url('https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro');
 :root {
   --mainColor: #ff9800;
 }
 body {
   margin: 0;
-  font-family: "Lucida Sans Unicode", "Lucida Grande",
+  font-family: 'Roboto', sans-serif, "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   fill: #ff9800;
   overflow-x: hidden;
+  font-style: bold;
 }
-/*----------------------------------------------------*/
+
 .YouTube{
   pointer-events: none;
   position: fixed;
@@ -29,7 +30,6 @@ body {
   min-width: 100%; 
   min-height: 100%; 
   z-index: -1000; 
-  background-size: cover;
 }
 .fixedButton svg {
   z-index: 6;
@@ -65,12 +65,11 @@ body {
   display: -webkit-flex;
   overflow-x: hidden;
   max-height: 250px;
-  background-color: #4D6173;
+  background-color: rgba(34, 42, 49, 0.226);
   justify-content: center;
   position: fixed;
   margin-right: 48%;
   margin-left: 40%;
-  border-radius: 0.8rem;
   margin-top: 0; 
   z-index: 999;
 }
@@ -110,24 +109,68 @@ body {
   background-color: #ddd;
   padding: 0.7rem;
   color: white;
-  background-color: #242621;
+  background-color: #2426217c;
   text-align: center;
   border-top: 0.3rem solid #E9F1F2;
   border-bottom: 0.3rem solid #E9F1F2;
+  margin-top: 10rem;
  
 }
 
 /* Style the contact */
 .contact {
-  display: flex;
+  text-align: center;
   background-color: #ddd;
   padding: 0.7rem;
   color: white;
-  background-color: #242621;
-  flex-direction: column;
+  background-color: #2426217c;
   border-top: 0.3rem solid #E9F1F2;
   border-bottom: 0.3rem solid #E9F1F2;
   
+}
+.linkimg{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+
+}
+.linkimg img {
+
+  display: flex;
+  height: 5rem;
+  width: 5rem;
+  max-height: 10rem;
+  max-width: 10rem;
+  margin-left: 1rem;
+  margin-right: 1rem;   
+
+  
+}
+.linkimg img:hover{
+
+  animation: linkimg 0.8s linear infinite;
+-moz-animation: linkimg 0.8s linear infinite;
+-webkit-animation: linkimg 0.8s linear infinite;
+-o-animation: linkimg img 0.8s linear infinite;
+
+}
+  /* Safari 4.0 - 8.0 */
+@-webkit-keyframes linkimg {
+  0%   {transform: rotate(0deg);}
+  25%  {transform: rotate(20deg);}
+  75%  {transform: rotate(-20deg);}
+  100% {transform: rotate(0deg);}
+}
+
+/* Standard syntax */
+@keyframes linkimg {
+  0%   {transform: rotate(0deg);}
+  25%  {transform: rotate(20deg);}
+  75%  {transform: rotate(-20deg);}
+  100% {transform: rotate(0deg);}
 }
 .intro-portfolio {
   font-size: 130%;
@@ -183,7 +226,7 @@ a {
   transform: translateY(-18px);
   transform: scale(1.03);
   -webkit-transform: scale(1.03);
-  box-shadow: 0 0.4rem 0.8rem 0.1rem rgba(230, 229, 229, 0.308);;
+  box-shadow: 0 0.4rem 0.8rem 0.1rem rgba(230, 229, 229, 0.308);
 }
 
 #content {
@@ -210,11 +253,10 @@ a {
   padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
-  width: 100rem; /* Full width */
+  width: 70rem; /* Full width */
   height: 10rem; /* Full height */ /* Enable scroll if needed */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content {
   background-color: #E9F1F2;
@@ -247,7 +289,9 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
- 
+align-content: center;
+height: 1080px;
+width: 100%;
 }
 
 
@@ -281,37 +325,71 @@ a {
 }
 /*About*/
 /* Style the about me */
+
 .about {
   text-shadow: 0.1px 0.2px black;
   background-color: #ddd;
   padding: 0.7rem;
   color: white;
-  background-color: #242621;  
+  background-color: #2426217c;  
   display: flex;
   display: -webkit-flex;
-  justify-content: space-around;
   flex-direction: row;
-  align-content: center;
+  justify-content: space-between;
+  align-self: center;
   flex-wrap: nowrap;
 }
 .columnA {
   padding: 0.7rem;
   max-width: 50%;
-
+  width: 50%;
+  display: flex;
 
 }
 .columnA img {
   padding: 1.1rem;
- 
 }
 
-/*About*/
+
 .columnA2 {
   padding: 0.7rem;
   max-width: 50%;
   color: white;
   font-size: 130%;
+  width: 50%;
 }
+.stats{
+list-style-type: none;
+margin: 0;
+padding: 10;
+max-width: 410px;
+box-sizing: border-box;
+}
+.skill1{
+background: #1f2c7e;
+width: 77%;
+font-style: bold;
+
+}
+.skill2{
+  background: #7a2e21;
+  width: 75%;
+  font-style: bold;
+  
+  }
+  .skill3{
+    background: #8f8d16;
+    width: 68%;
+    font-style: bold;
+    
+    }
+    .skill4{
+      background: #204e14;
+      width: 50%;
+      font-style: bold;
+ 
+      }
+/*About*/
 /* Style the footer */
 .footer {
   display: flex;
@@ -323,5 +401,7 @@ a {
 @media screen and (max-width: 820px) {
   .row {
      flex-direction: column;
+     max-height: 100%;
+     max-width: 100%
 }
 }

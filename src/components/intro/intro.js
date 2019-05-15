@@ -58,13 +58,10 @@ class Intro extends Component {
           <h1>Hello there!</h1>
 
           <p>
-            Welcome to this handcrafted webpage, created by Erik Calleberg. This
-            webpage will show you why Erik could be a valuable asset to your
-            company and team! <br />
-            <br />
-            This webpage will act as a portfolio, showcasing Erik’s skills in
+            Welcome to this handcrafted webpage, built in Gatsby.js and React.js, created by Erik Calleberg. This
+            webpage will act as my portfolio showcasing my skils in
             UX, UI, Design Thinking, Customer Journey maps, design projects,
-            personality traits, interests and experiences.
+            personality traits, interests and experiences.          
             <br />
             <br />
             Thank you for taking your time and checking out this page, have a

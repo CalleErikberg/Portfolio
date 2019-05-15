@@ -13,6 +13,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <div>
+        
       <BackToTop />
         <Nav />
         <Intro />
@@ -21,6 +22,7 @@ class IndexPage extends React.Component {
         <Contact />
         <Footer />
       </div>
+
     )
   }
 }
