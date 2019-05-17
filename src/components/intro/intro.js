@@ -1,49 +1,16 @@
 import React, { Component } from "react"
-import Helmet from "react-helmet"
-import YouTube from "react-youtube"
+import MyVideo from "../../videos/skyrimL.mp4"
+import MyVideoPoster from "../../videos/fallbackskyrim.jpg"
 
 class Intro extends Component {
-  _onReady(event) {
-    // access to player in all event handlers via event.target
-    event.target.mute()
-  }
-  _onEnd(event) {
-    event.target.playVideo()
-  }
-  render() {
-    const opts = {
-      height: "1080",
-      width: "1920",
-      loop: "1",
-      playlist: "7ZWgBbKItEw",
-      rel: 0,
-      controls: 0,
-      playsinline: 1,
-      frameborder: 0,
-      allowfullscreen: 1,
-      autobuffer: 1,
-      playerVars: {
-        // https://developers.google.com/youtube/player_parameters
-        enablejsapi: 1,
-        autoplay: 1,
-        loop: 1,
-        playlist: "7ZWgBbKItEw",
-        rel: 0,
-        controls: 0,
-        playsinline: 1,
-        frameborder: 0,
-        allowfullscreen: 1,
-        autobuffer: 1,
-      },
-    }
+
+  render() {    
     return (
-      <div className="row">
-        <YouTube
-          className="YouTube"
-          videoId="i_mcY2DsIjA"
-          opts={opts}
-          onReady={this._onReady}
-        />
+      <div className="row" id="home">
+               <video poster={MyVideoPoster} autoPlay loop muted>
+      <source src={MyVideo} type="video/mp4"></source>
+      Your browser does not support the video tag.
+    </video>
         <div className="column1">
           {" "}
           <svg xmlns="http://www.w3.org/2000/svg" width="723" height="508">
@@ -58,13 +25,10 @@ class Intro extends Component {
           <h1>Hello there!</h1>
 
           <p>
-            Welcome to this handcrafted webpage, created by Erik Calleberg. This
-            webpage will show you why Erik could be a valuable asset to your
-            company and team! <br />
-            <br />
-            This webpage will act as a portfolio, showcasing Erik’s skills in
+            Welcome to this handcrafted webpage, built in Gatsby.js and React.js, created by Erik Calleberg. This
+            webpage will act as my portfolio showcasing my skils in
             UX, UI, Design Thinking, Customer Journey maps, design projects,
-            personality traits, interests and experiences.
+            personality traits, interests and experiences.          
             <br />
             <br />
             Thank you for taking your time and checking out this page, have a

@@ -5,6 +5,16 @@ class Nav extends Component {
   render() {
     return (
       <div className="topnav">
+      <Link
+          activeClass="active"
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={400}
+        >
+          Home
+        </Link>
         <Link
           activeClass="active"
           to="portfolio"

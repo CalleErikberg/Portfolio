@@ -21,6 +21,7 @@ class IndexPage extends React.Component {
         <Contact />
         <Footer />
       </div>
+
     )
   }
 }
