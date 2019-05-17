@@ -12,8 +12,7 @@
 }
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif, "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Roboto", sans-serif, "Lucida Sans Unicode", "Lucida Grande";
   fill: #ff9800;
   overflow-x: hidden;
   font-style: bold;
@@ -183,6 +182,51 @@ video {
   100% {
     transform: rotate(0deg);
   }
+  
+}
+.linkimg{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+
+}
+.linkimg img {
+
+  display: flex;
+  height: 5rem;
+  width: 5rem;
+  max-height: 10rem;
+  max-width: 10rem;
+  margin-left: 1rem;
+  margin-right: 1rem;   
+
+  
+}
+.linkimg img:hover{
+
+  animation: linkimg 0.8s linear infinite;
+-moz-animation: linkimg 0.8s linear infinite;
+-webkit-animation: linkimg 0.8s linear infinite;
+-o-animation: linkimg img 0.8s linear infinite;
+
+}
+  /* Safari 4.0 - 8.0 */
+@-webkit-keyframes linkimg {
+  0%   {transform: rotate(0deg);}
+  25%  {transform: rotate(20deg);}
+  75%  {transform: rotate(-20deg);}
+  100% {transform: rotate(0deg);}
+}
+
+/* Standard syntax */
+@keyframes linkimg {
+  0%   {transform: rotate(0deg);}
+  25%  {transform: rotate(20deg);}
+  75%  {transform: rotate(-20deg);}
+  100% {transform: rotate(0deg);}
 }
 .intro-portfolio {
   font-size: 130%;
@@ -364,7 +408,6 @@ a {
 .columnA img {
   padding: 1.1rem;
 }
-
 .columnA2 {
   padding: 0.7rem;
   max-width: 50%;
@@ -426,5 +469,5 @@ a {
     margin-right: 50%;
     margin-left: 0;
     margin-top: 0;
-  }
+}
 }
