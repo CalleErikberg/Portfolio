@@ -7,7 +7,7 @@ import AboutMe from "../components/aboutme/aboutme"
 import Contact from "../components/contact/contact"
 import Footer from "../components/footer/footer"
 import BackToTop from "../components/backToTop/backToTop"
-
+import Projects from "./projects"
 
 class IndexPage extends React.Component {
   render() {

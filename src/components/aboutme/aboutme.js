@@ -2,7 +2,7 @@ import React, { Component } from "react"
 
 class AboutMe extends Component {
   state = {
-    class: 'hidden'
+    class: "hidden",
   }
   componentDidMount() {
     window.addEventListener("scroll", this.handleScroll)
@@ -12,7 +12,7 @@ class AboutMe extends Component {
     const { scrollY } = window || {}
 
     if (scrollY > 1000) {
-      this.setState({ class: 'about' })
+      this.setState({ class: "about" })
     }
   }
   render() {
@@ -20,6 +20,8 @@ class AboutMe extends Component {
       <div className={this.state.class} id="about">
         <div className="columnA">
           <img src="https://www.yugiohcardmaker.net/ycmaker/createcard.php?name=Erik+Calleberg&cardtype=Monster&subtype=effect&attribute=Earth&level=4&rarity=Ultimate+Rare&picture=tempimages%2F268595861.jpg&circulation=UX-Kit&set1=5&set2=19&type=UX-Designer&carddescription=At+the+start+of+a+Design+Project%2C+if+this+card+is+face-up%2C+this+card+makes+sure+as+many+details+of+the+project+is+accounted+for.+During+the+main+stage+this+card+gains+motivation+to+brainstorm+and+figure+out+new+solutions+after+iterations+and+workshops.&atk=1400&def=2200&creator=EC&year=2019&serial=85474475" />
+        </div>
+        <div className="columnA2">
           <ul class="stats">
             <h1>Distribution of skills</h1>
             <li class="skill1">
@@ -36,8 +38,7 @@ class AboutMe extends Component {
             </li>
           </ul>
         </div>
-
-        <div className="columnA2">
+        <div className="columnA3">
           <h2>An UX-Designer and Front-End developer!</h2>
           <p>
             I am Erik Calleberg and you are probably seeing this page because

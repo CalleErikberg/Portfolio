@@ -7,7 +7,7 @@ class Intro extends Component {
   render() {    
     return (
       <div className="row" id="home">
-               <video poster={MyVideoPoster} autoPlay loop muted>
+               <video className="videoBack" poster={MyVideoPoster} autoPlay loop muted>
       <source src={MyVideo} type="video/mp4"></source>
       Your browser does not support the video tag.
     </video>
