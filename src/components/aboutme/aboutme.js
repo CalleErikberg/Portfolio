@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import me from "../../videos/meyo.png"
 
 class AboutMe extends Component {
   state = {
@@ -19,22 +20,30 @@ class AboutMe extends Component {
     return (
       <div className={this.state.class} id="about">
         <div className="columnA">
-          <img src="https://www.yugiohcardmaker.net/ycmaker/createcard.php?name=Erik+Calleberg&cardtype=Monster&subtype=effect&attribute=Earth&level=4&rarity=Ultimate+Rare&picture=tempimages%2F268595861.jpg&circulation=UX-Kit&set1=5&set2=19&type=UX-Designer&carddescription=At+the+start+of+a+Design+Project%2C+if+this+card+is+face-up%2C+this+card+makes+sure+as+many+details+of+the+project+is+accounted+for.+During+the+main+stage+this+card+gains+motivation+to+brainstorm+and+figure+out+new+solutions+after+iterations+and+workshops.&atk=1400&def=2200&creator=EC&year=2019&serial=85474475" />
+          <img src={me} alt=""/>
         </div>
         <div className="columnA2">
           <ul class="stats">
             <h1>Distribution of skills</h1>
+            <h3>UX/UI Design</h3>
             <li class="skill1">
-              <p>UX/UI Design</p>
+              <p>⭐⭐⭐⭐</p>
             </li>
+            <h3>Design Thinking</h3>
             <li class="skill2">
-              <p>Creativity and fantasy</p>
+              <p>⭐⭐⭐⭐⭐</p>
             </li>
+            <h3>Adobe Illustrator</h3>
             <li class="skill3">
-              <p>Knowlege of programs</p>
+              <p>⭐⭐⭐</p>
             </li>
+            <h3>Adobe Experience Design</h3>
             <li class="skill4">
-              <p>Front-End</p>
+              <p>⭐⭐⭐</p>
+            </li>
+            <h3>Front-End Development</h3>
+            <li class="skill4">
+              <p>⭐⭐⭐</p>
             </li>
           </ul>
         </div>

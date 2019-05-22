@@ -1,16 +1,15 @@
 import React, { Component } from "react"
-import MyVideo from "../../videos/skyrimL.mp4"
-import MyVideoPoster from "../../videos/fallbackskyrim.jpg"
+import MyVideo from "../../videos/skyrimSmile.mp4"
+import MyVideoPoster from "../../videos/fallbackskyrim.png"
 
 class Intro extends Component {
-
-  render() {    
+  render() {
     return (
       <div className="row" id="home">
-               <video className="videoBack" poster={MyVideoPoster} autoPlay loop muted>
-      <source src={MyVideo} type="video/mp4"></source>
-      Your browser does not support the video tag.
-    </video>
+        <video className="videoBack" poster={MyVideoPoster} autoPlay loop muted>
+          <source src={MyVideo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <div className="column1">
           {" "}
           <svg xmlns="http://www.w3.org/2000/svg" width="723" height="508">
@@ -25,14 +24,12 @@ class Intro extends Component {
           <h1>Hello there!</h1>
 
           <p>
-            Welcome to this handcrafted webpage, built in Gatsby.js and React.js, created by Erik Calleberg. This
-            webpage will act as my portfolio showcasing my skils in
-            UX, UI, Design Thinking, Customer Journey maps, design projects,
-            personality traits, interests and experiences.          
-            <br />
-            <br />
-            Thank you for taking your time and checking out this page, have a
-            wonderful day!
+            Welcome to this handcrafted webpage, built in <b>Gatsby.js</b> and 
+
+                      <b> React.js</b>, created by <b>Erik Calleberg</b>. This webpage will act as my
+            portfolio showcasing my skils in UX, UI, Design Thinking, Customer
+            Journey maps, design projects, personality traits, interests and
+            experiences.
           </p>
         </div>
       </div>
