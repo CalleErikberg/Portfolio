@@ -56,7 +56,10 @@ class Projects extends React.Component {
               Intelligence2day-software based service. The interface was rebuilt
               with a focus on smooth workflows between the different parts of
               the page using the personas. The result was a hi-fi prototype for
-              the company.
+              the company.{" "}
+              <a className="protLink" href="https://xd.adobe.com/view/531e798e-575b-4647-5bdf-e0f52a881b9d-252f/" target="_blank">
+                Click here to see the prototype.
+              </a>
             </p>
           </div>
           <div className="colA">

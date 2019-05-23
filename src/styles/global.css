@@ -106,6 +106,12 @@ body {
 .back a:hover {
   background-size: 4px 50px;
 }
+.protLink{
+
+  color: white;
+
+
+}
 /*_______________________________________________*/
 .videoBack {
   pointer-events: none;
@@ -126,7 +132,6 @@ body {
   width: 2rem;
   color: #fff;
   text-align: center;
-  font-size: 100%;
   margin-top: 47%;
   margin-left: 97.5%;
   transform: scale(2);
@@ -189,7 +194,8 @@ body {
 .content {
   background-color: #ddd;
   padding: 0.7rem;
-  color: white;
+  text-shadow: 0.1px 0.2px black;
+  color: rgb(255, 255, 255);
   background-color: #2426217c;
   text-align: center;
   border-top: 0.3rem solid #e9f1f2;
@@ -209,7 +215,6 @@ body {
   color: white;
   background-color: #2426217c;
   border-top: 0.3rem solid #e9f1f2;
-  border-bottom: 0.3rem solid #e9f1f2;
   animation: fade-inC 2s;
 }
 @keyframes fade-inC {
@@ -459,19 +464,23 @@ a {
 /* Create equal columns that sits next to each other */
 .column1 {
   padding: 0.7rem;
+  color: white;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.637);
 }
 /* Bild i vänster-column*/
-.column1 svg {
+.column1 img{
   padding: 1.1rem;
   height: 100%;
   width: 100%;
+  max-width: 650px;
 }
 /* Column to the right*/
 .column2 {
   padding: 0.7rem;
-  color: white;
-  font-size: 130%;
+  font-size: 160%;
   max-width: 50%;
+  color: white;	
+text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.637);
 }
 /*About*/
 /* Style the about me */
@@ -480,7 +489,7 @@ a {
   text-shadow: 0.1px 0.2px black;
   background-color: #ddd;
   padding: 0.7rem;
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: #2426217c;
   display: flex;
   display: -webkit-flex;
@@ -507,9 +516,9 @@ a {
 }
 .columnA3 {
   padding: 0.7rem;
-  color: white;
   font-size: 130%;
   width: 50%;
+  text-shadow: 0.1px 0.2px black;
 }
 .columnA2 {
   display: flex;
@@ -557,7 +566,6 @@ a {
     justify-content: space-around;
     align-content: center;
     align-items: center;
-    text-align: center;
   }
   .column2 {
     width: 100% !important;
@@ -581,4 +589,66 @@ a {
     padding: 1.1rem;
     margin-top: 4rem;
   }
-}
+  .columnA3{
+
+    width: 100%;
+
+  }
+  .columnA {
+
+    width: 100%;
+
+  }
+  .project1 {
+
+    flex-direction: column !important;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    line-height: 2rem; 
+  }
+  .colA img{
+    min-width: 330px;
+    width: 100%;
+    padding: none;
+  }
+  .colAG img{
+    min-width: 330px;
+    width: 100%;
+    padding: none;
+  }
+  h1{
+
+    line-height: 3rem;
+
+  }
+  .app{
+
+    max-width: 330px;
+
+  }
+  .fixedButton svg{
+
+  margin-top: 680px;
+  margin-left: 90%;
+
+  }
+  .container {
+
+    margin: 6% 2% 6% 2%;
+    animation: fade-in 2s;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      margin: 0 0 0;
+    }
+    to {
+      opacity: 1;
+      margin: 6% 2% 6% 2%;
+    }
+  }
+  }

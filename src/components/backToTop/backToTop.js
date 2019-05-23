@@ -7,7 +7,7 @@ class BackToTop extends Component {
   render() {
     return (
       <div className="fixedButton" onClick={() => this.scrollTop()}>
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
         <path fill="none" stroke="#000" stroke-width="23.5" stroke-opacity="null" fill-opacity="null" d="m321.2757,195.57556l-210.28156,-210.50329l138.48833,0l210.28194,210.50329l-210.28194,210.49667l-138.48833,0l210.28156,-210.49667z" id="svg_1" transform="rotate(-90, 285.381, 195.57)"/>
   <path transform="rotate(-90, 11.9372, 11.9368)" d="m13.78179,11.93668l-10.80541,-10.81645l7.11624,0l10.80539,10.81645l-10.80539,10.8168l-7.11624,0l10.80541,-10.8168z"/>
           <defs>

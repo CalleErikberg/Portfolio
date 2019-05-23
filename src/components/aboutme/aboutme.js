@@ -20,7 +20,7 @@ class AboutMe extends Component {
     return (
       <div className={this.state.class} id="about">
         <div className="columnA">
-          <img src={me} alt=""/>
+          <img src={me} alt="" />
         </div>
         <div className="columnA2">
           <ul class="stats">
@@ -50,20 +50,18 @@ class AboutMe extends Component {
         <div className="columnA3">
           <h2>An UX-Designer and Front-End developer!</h2>
           <p>
-            I am Erik Calleberg and you are probably seeing this page because
-            you want to know what kind of person I am and what my interests are.
-            Considering this page’s theme I’m kind of nerd. My interests involve
-            PC-gaming and to balance that with some outdoors I practise
-            orienteering together with some variety exercise. Also memes are
-            fun.
-            <br /> <br />
-            As for my experience with Design, the best part of design is the
-            process from an idea to a fully-fledged prototype to deliver and
-            especially the UX/UI aspects of a project. Although my primary focus
-            is the Design-world I did manage to code this website from scratch
-            with Gatsby.js built with React.js and Node.js if you specialize
-            more in Front-end development. You won't be dissatisfied if you add
-            me to your deck!
+            I am 22 years old, raised in Stockholm where I currently live. My
+            interests are computer games, orienteering, memes and an active
+            outdoor lifestyle.
+            <br />
+            <br />
+            As for my experience with Design, the best part of design for me is
+            the journey from just an idea to a fully-fledged prototype to
+            deliver. Especially interesting are the UX/UI aspects of a project,
+            seeing the small details of e.g where a “Accept”-button goes and
+            why. Although my primary experience is Design I tend to return to
+            coding project. Like this website I made from scratch with Gatsby.js
+            and React.js.
           </p>
         </div>
       </div>
