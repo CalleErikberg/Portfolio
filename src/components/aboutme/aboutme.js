@@ -27,7 +27,7 @@ class AboutMe extends Component {
             <h1>Distribution of skills</h1>
             <h3>UX/UI Design</h3>
             <li class="skill1">
-              <p>⭐⭐⭐⭐</p>
+              <p>⭐⭐⭐⭐⭐</p>
             </li>
             <h3>Design Thinking</h3>
             <li class="skill2">
@@ -60,7 +60,7 @@ class AboutMe extends Component {
             deliver. Especially interesting are the UX/UI aspects of a project,
             seeing the small details of e.g where a “Accept”-button goes and
             why. Although my primary experience is Design I tend to return to
-            coding project. Like this website I made from scratch with Gatsby.js
+            coding projects such as this website I made from scratch with Gatsby.js
             and React.js.
           </p>
         </div>
