@@ -28,7 +28,7 @@ class Contact extends Component {
           </a>
           <a href="https://www.linkedin.com/in/erik-calleberg-610106159/">
             <img
-              src="http://www.logospng.com/images/133/linkedin-icon-for-email-signature-ndash-free-icons-133532.png"
+              src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG38.png"
               alt="LinkedIn"
             />
           </a>
