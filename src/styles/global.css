@@ -261,10 +261,10 @@ a.back{
 }
 .linkimg img {
   display: flex;
-  height: 10rem;
-  width: 10rem;
+  height: 5rem;
+  width: 5rem;
+  max-height: 10rem;
   max-width: 10rem;
-  min-height: 10rem;
   margin-left: 1rem;
   margin-right: 1rem;
 }
