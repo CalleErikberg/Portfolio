@@ -5,6 +5,7 @@
   scroll-behavior: smooth;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 @import url("https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro");
 :root {
@@ -36,7 +37,7 @@ body {
   background-color: #2426217c;
   display: flex;
   display: -webkit-flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-content: center;
   flex-wrap: nowrap;
@@ -53,7 +54,13 @@ body {
 }
 .colA {
   padding: 0.7rem;
-  width: 50%;
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
 }
 .colA img {
   padding: 1.1rem;
@@ -215,19 +222,20 @@ a.back{
 }
 /* Style the content */
 .content {
-  background-color: #ddd;
   padding: 0.7rem;
-  text-shadow: 0.1px 0.2px black;
   color: rgb(255, 255, 255);
   background-color: #2426217c;
   text-align: center;
   border-top: 0.3rem solid #e9f1f2;
   border-bottom: 0.3rem solid #e9f1f2;
-  margin-top: 10rem;
+  padding-top: 10rem;
+
 }
 .content a {
   color: white;
+  overflow-y: hidden;
 }
+
 /* Style the contact */
 .contact {
   text-align: center;
@@ -355,6 +363,8 @@ a.back{
 }
 .intro-portfolio {
   font-size: 130%;
+  text-shadow: 0.1px 0.2px black;
+  
 }
 /* PICTURE CARDS */
 
@@ -465,6 +475,7 @@ a {
   align-items: center;
   height: 1080px;
   width: 100%;
+  background-color: #2426217c;
 }
 
 /* Create equal columns that sits next to each other */
@@ -479,6 +490,11 @@ a {
   height: 100%;
   width: 100%;
   max-width: 650px;
+}
+.column1 h1{
+
+padding-left: 1.1rem;
+
 }
 /* Column to the right*/
 .column2 {

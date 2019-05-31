@@ -30,20 +30,15 @@ class Projects extends React.Component {
           Your browser does not support the video tag.
         </video>
         <div className="project1">
-          <div className="colA">
-            <img src={coopsketch} alt="sketch" />
-            <img src={customersafari} alt="customer safari map" />
-            <img src={comic} alt="sketch" />
-          </div>
-          <div className="colB">
+        <div className="colB">
             <h1>COOP - Service Design</h1>
             <p>
               The work has been carried out for the food company Coop Sverige
               AB. The group started the project by participating in two
               teacher-led workshops to prepare the group members for the real
               work. The first major step towards creating a current situation
-              analysis of Coop by going to the store and conducting a Customer
-              Safari, Customer Interviews and staff interviews. The insights of
+             was an analysis of Coop by going to the store and conducting a Customer
+              Safari, Customer Interviews and Staff Interviews. The insights of
               these methods were then used as the basis for the continued work
               of a workshop, brainstorming for solutions, a value map and
               service map that demonstrates the entire omni channel for Coop.
@@ -60,12 +55,18 @@ class Projects extends React.Component {
                 </a>
             </p>
           </div>
+          <div className="colA">
+            <img src={coopsketch} alt="sketch" />
+            <img src={customersafari} alt="customer safari map" />
+            <img src={comic} alt="sketch" />
+          </div>
+          
         </div>
         <div className="project1">
           <div className="colB">
             <h1>Internship - Comintelli AB</h1>
             <p>
-              My internship at Comintelli AB consisted of a UX project where me
+              My internship at Comintelli AB consisted of a UX project where I
               and my colleague worked on trying to find a solution to improve
               the workflow for their customers on their
               Intelligence2day-software based service. The project started with
@@ -75,11 +76,11 @@ class Projects extends React.Component {
               discussions and workshops.
               <br />
               <br />
-              Eventually we built lo-fi prototypes to better illustrate our
+              Later we built lo-fi prototypes to better illustrate our
               ideas for those working with product to get their very valuable
-              insights. The last week the lo-fi prototypes were analyzed and put
-              together to form a hi-fi prototype made to look like the real site
-              at the time but with out results of the iterations.{" "}
+              insights. The last two weeks the lo-fi prototypes were analyzed and put
+              together to form a hi-fi prototype made to look like the real site.
+              {" "}
               <a
                 className="protLink"
                 href="https://xd.adobe.com/view/531e798e-575b-4647-5bdf-e0f52a881b9d-252f/"
@@ -95,13 +96,7 @@ class Projects extends React.Component {
           </div>
         </div>
         <div className="project1">
-          <div className="colA">
-            <img src={fondbergs} alt="sketch fondberg" />
-            <video className="app" poster={fallbackfw} autoPlay loop muted>
-              <source src={FW} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
+          
           <div className="colB">
             <h1>Sharp Design Project - Fondberg & Wincent</h1>
             <p>
@@ -117,6 +112,13 @@ class Projects extends React.Component {
               can be made interactive, less stressful to do and not feel like a
               tedious task. 
             </p>
+          </div>
+          <div className="colA">
+            <img src={fondbergs} alt="sketch fondberg" />
+            <video className="app" poster={fallbackfw} autoPlay loop muted>
+              <source src={FW} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
         <div className="project1G">

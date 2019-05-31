@@ -23,7 +23,7 @@ class Intro extends Component {
             Welcome to this handcrafted webpage, built in <b>Gatsby.js</b> and 
 
                       <b> React.js</b>, created by <b>Erik Calleberg</b>. This webpage will act as my
-            portfolio showcasing my skils in UX, UI, Design Thinking, Customer
+            portfolio showcasing my skills in UX, UI, Design Thinking, Customer
             Journey maps, design projects, personality traits, interests and
             experiences.
           </p>
