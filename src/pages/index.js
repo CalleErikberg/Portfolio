@@ -10,6 +10,7 @@ import BackToTop from "../components/backToTop/backToTop"
 import Projects from "./projects"
 import favicon from "../videos/favicon.png"
 
+
 class IndexPage extends React.Component {
   render() {
     return (

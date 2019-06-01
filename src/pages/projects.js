@@ -70,7 +70,7 @@ class Projects extends React.Component {
               and my colleague worked on trying to find a solution to improve
               the workflow for their customers on their
               Intelligence2day-software based service. The project started with
-              learing Comintelli's product and from there starting workshops and
+              learning Comintelli's product and from there starting workshops and
               brainstorming solutions for making the site more linear for
               customers. Sketches on paper went through several iterations of
               discussions and workshops.

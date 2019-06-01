@@ -26,23 +26,23 @@ class AboutMe extends Component {
           <ul class="stats">
             <h1>Distribution of skills</h1>
             <h3>UX/UI Design</h3>
-            <li class="skill1">
+            <li className="skill1">
               <p>⭐⭐⭐⭐⭐</p>
             </li>
             <h3>Design Thinking</h3>
-            <li class="skill2">
+            <li className="skill2">
               <p>⭐⭐⭐⭐⭐</p>
             </li>
             <h3>Adobe Illustrator</h3>
-            <li class="skill3">
+            <li className="skill3">
               <p>⭐⭐⭐</p>
             </li>
             <h3>Adobe Experience Design</h3>
-            <li class="skill4">
+            <li className="skill4">
               <p>⭐⭐⭐</p>
             </li>
             <h3>Front-End Development</h3>
-            <li class="skill4">
+            <li className="skill4">
               <p>⭐⭐⭐</p>
             </li>
           </ul>
