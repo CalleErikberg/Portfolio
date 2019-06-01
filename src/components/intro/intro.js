@@ -42,7 +42,7 @@ class Intro extends Component {
             traits, interests and experiences.
           </p>
           <h4>Here is an API that generates random beers!</h4>
-          <p>{this.state.name}</p>
+          <p>{this.state.name} 🍺</p>
         </div>
       </div>
     )
