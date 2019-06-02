@@ -9,11 +9,9 @@ class Intro extends Component {
     name: "",
   }
   async getBeer() {
-    let result = await axios({
-      method: "get",
-      url:
-        "https://sandbox-api.brewerydb.com/v2/beer/random/?key=ce5768dc362b14bc994b602492784bf5",
-    })
+    let result = await axios.get(
+      `${'https://cors-anywhere.herokuapp.com/'}https://sandbox-api.brewerydb.com/v2/beer/random/?key=ce5768dc362b14bc994b602492784bf5`
+    )
     this.setState({ name: result.data.data.name })
   }
   componentDidMount() {
