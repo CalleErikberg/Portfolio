@@ -17,7 +17,6 @@ class Card extends Component {
   }
 
   render() {
-    console.log(this.state.class);
     return (
       <div className={this.state.class}>
         <img

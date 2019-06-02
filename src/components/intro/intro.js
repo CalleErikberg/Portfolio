@@ -16,6 +16,7 @@ class Intro extends Component {
   }
   componentDidMount() {
     this.getBeer()
+    //const ass=Math.random()
   }
   render() {
     return (
