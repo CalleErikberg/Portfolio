@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import me from "../../videos/meyo.png"
+import me from "../../videos/meme.png"
 
 class AboutMe extends Component {
   state = {
@@ -25,25 +25,26 @@ class AboutMe extends Component {
         <div className="columnA2">
           <ul class="stats">
             <h1>Distribution of skills</h1>
+            <h2>Scale of 1 - 5 stars</h2>
             <h3>UX/UI Design</h3>
             <li className="skill1">
-              <p>⭐⭐⭐⭐⭐</p>
+              <p>⭐ ⭐ ⭐ ⭐ ⭐</p>
             </li>
             <h3>Design Thinking</h3>
             <li className="skill2">
-              <p>⭐⭐⭐⭐⭐</p>
+              <p>⭐ ⭐ ⭐ ⭐ ⭐</p>
             </li>
             <h3>Adobe Illustrator</h3>
             <li className="skill3">
-              <p>⭐⭐⭐</p>
+              <p>⭐ ⭐ ⭐</p>
             </li>
             <h3>Adobe Experience Design</h3>
             <li className="skill4">
-              <p>⭐⭐⭐</p>
+              <p>⭐ ⭐ ⭐</p>
             </li>
             <h3>Front-End Development</h3>
             <li className="skill4">
-              <p>⭐⭐⭐</p>
+              <p>⭐ ⭐ ⭐</p>
             </li>
           </ul>
         </div>

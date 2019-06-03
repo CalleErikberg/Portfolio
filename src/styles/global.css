@@ -5,7 +5,6 @@
   scroll-behavior: smooth;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 @import url("https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro");
 :root {
@@ -104,13 +103,12 @@ body {
   max-width: 700px;
   max-height: 700px;
 }
-a.back{
+a.back {
   background-color: rgba(22, 26, 31, 0.61);
-
 }
 .back {
   position: fixed;
-  
+
   cursor: pointer;
   color: #fff;
   z-index: 999;
@@ -162,7 +160,7 @@ a.back{
   width: 2rem;
   color: #fff;
   text-align: center;
-  margin-top: 47%;
+  margin-top: 43%;
   margin-left: 97.5%;
   transform: scale(2);
   box-shadow: rgba(230, 229, 229, 0.308);
@@ -362,7 +360,6 @@ a.back{
 .intro-portfolio {
   font-size: 130%;
   text-shadow: 0.1px 0.2px black;
-  
 }
 /* PICTURE CARDS */
 
@@ -489,10 +486,8 @@ a {
   width: 100%;
   max-width: 650px;
 }
-.column1 h1{
-
-padding-left: 1.1rem;
-
+.column1 h1 {
+  padding-left: 1.1rem;
 }
 /* Column to the right*/
 .column2 {
@@ -552,23 +547,15 @@ padding-left: 1.1rem;
   box-sizing: border-box;
 }
 .skill1 {
-  background-image: linear-gradient(-90deg, rgb(42, 80, 112), rgb(42, 80, 112));
-  width: 38%;
   font-style: bold;
 }
 .skill2 {
-  background-image: linear-gradient(-90deg, rgb(42, 80, 112), rgb(42, 80, 112));
-  width: 38%;
   font-style: bold;
 }
 .skill3 {
-  background-image: linear-gradient(-90deg, rgb(42, 80, 112), rgb(42, 80, 112));
-  width: 38%;
   font-style: bold;
 }
 .skill4 {
-  background-image: linear-gradient(-90deg, rgb(42, 80, 112), rgb(42, 80, 112));
-  width: 38%;
   font-style: bold;
 }
 /*About*/
@@ -581,10 +568,8 @@ padding-left: 1.1rem;
 }
 /* On screens that are 700px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  *{
-
+  * {
     overflow-x: hidden !important;
-
   }
   body {
     width: 100% !important;
@@ -626,7 +611,7 @@ padding-left: 1.1rem;
   .columnA {
     width: 100%;
   }
-  .columnA img{
+  .columnA img {
     width: 100%;
   }
   .project1 {
@@ -635,10 +620,8 @@ padding-left: 1.1rem;
     justify-content: space-around;
     line-height: 2rem;
   }
-  .colA{
-
+  .colA {
     width: 100%;
-
   }
   .colA img {
     min-width: 330px;

@@ -40,7 +40,7 @@ class Intro extends Component {
             Thinking, Customer Journey maps, design projects, personality
             traits, interests and experiences.
           </p>
-          <h4>Here is an API that generates random beers!</h4>
+          <h4>Below is an API that generates random beers!</h4>
           <p>{this.state.name} 🍺</p>
         </div>
       </div>
