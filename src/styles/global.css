@@ -567,7 +567,7 @@ a {
   margin-bottom: 0px;
 }
 /* On screens that are 700px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   * {
     overflow-x: hidden !important;
   }
@@ -613,6 +613,7 @@ a {
   }
   .columnA img {
     width: 100%;
+    height: 100%;
   }
   .project1 {
     flex-direction: column !important;
