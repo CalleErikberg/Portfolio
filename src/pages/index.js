@@ -20,7 +20,7 @@ class IndexPage extends React.Component {
         <meta property="og:title" content="Erik Calleberg" />
 <meta property="og:type" content="video.movie" />
 <meta property="og:url" content="https://www.erikcalleberg.com/" />
-<meta property="og:image" content="../videos/ec.png" />
+<meta property="og:image" content="https://www.erikcalleberg.com/static/ec-7422492e904cee50cb0a8c4fd47fa7bd.png" />
 
         </head>
       <BackToTop />
