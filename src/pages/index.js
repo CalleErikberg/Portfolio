@@ -16,7 +16,13 @@ class IndexPage extends React.Component {
     return (
       <div>
         <title>Erik Calleberg - Portfolio</title>
-        <head><link rel="shortcut icon" type="image/png" href={favicon}/></head>
+        <head><link rel="shortcut icon" type="image/png" href={favicon}/>
+        <meta property="og:title" content="Erik Calleberg" />
+<meta property="og:type" content="video.movie" />
+<meta property="og:url" content="https://www.erikcalleberg.com/" />
+<meta property="og:image" content="../videos/ec.png" />
+
+        </head>
       <BackToTop />
         <Nav />
         <Intro />
