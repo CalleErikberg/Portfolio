@@ -19,7 +19,7 @@ class IndexPage extends React.Component {
         <head><link rel="shortcut icon" type="image/png" href={favicon}/>
         <meta property="og:title" content="Erik Calleberg" />
         <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.erikcalleberg.com/" />
+<meta property="og:url" content="https://www.erikcalleberg.com" />
 <meta property="og:image" content="https://www.erikcalleberg.com/static/ec-7422492e904cee50cb0a8c4fd47fa7bd.png" />
 
         </head>
