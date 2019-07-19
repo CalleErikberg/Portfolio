@@ -21,6 +21,8 @@ class IndexPage extends React.Component {
         <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.erikcalleberg.com" />
 <meta property="og:image" content="https://www.erikcalleberg.com/static/ec-7422492e904cee50cb0a8c4fd47fa7bd.png" />
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"/>
+<META HTTP-EQUIV="Expires" CONTENT="-1"/>
 
         </head>
       <BackToTop />
