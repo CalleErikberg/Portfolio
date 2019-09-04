@@ -49,7 +49,7 @@ class AboutMe extends Component {
           </ul>
         </div>
         <div className="columnA3">
-          <h2>An UX-Designer and Front-End developer!</h2>
+          <h2>An UX/UI Designer!</h2>
           <p>
             I am 22 years old, raised in Stockholm where I currently live. My
             interests are computer games, orienteering, memes and an active
