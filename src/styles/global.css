@@ -632,6 +632,7 @@ a {
   .fixedButton svg {
     margin-top: 680px;
     margin-left: 90%;
+    background: none;
   }
   .container {
     margin: 6% 2% 6% 2%;
