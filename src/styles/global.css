@@ -31,7 +31,6 @@ body {
 .project1 {
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.637);
   border-bottom: 0.3rem solid #e9f1f2;
-  background-color: #ddd;
   padding: 0.7rem;
   color: white;
   background-color: #2426217c;
@@ -72,7 +71,6 @@ body {
 }
 .project1G {
   text-shadow: 0.1px 0.2px black;
-  background-color: #ddd;
   padding: 0.7rem;
   color: white;
   animation: fade-inA 2s;
@@ -557,7 +555,6 @@ a {
 /* Style the footer */
 .footer {
   display: flex;
-  background-color: #f1f1f1;
   padding: 0.1rem;
   margin-bottom: 0px;
 }
