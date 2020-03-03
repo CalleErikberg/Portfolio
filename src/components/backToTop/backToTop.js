@@ -6,8 +6,7 @@ class BackToTop extends Component {
   }
   render() {
     return (
-      <div className="fixedButton" onClick={() => this.scrollTop()}>
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+        <svg className="fixedButton" xmlns="http://www.w3.org/2000/svg" width="20" height="20" onClick={() => this.scrollTop()}>
           <path
             fill="none"
             stroke="#000"
@@ -36,7 +35,6 @@ class BackToTop extends Component {
             </filter>
           </defs>
         </svg>
-      </div>
     )
   }
 }
