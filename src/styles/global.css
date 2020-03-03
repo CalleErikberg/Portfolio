@@ -75,7 +75,6 @@ body {
   background-color: #ddd;
   padding: 0.7rem;
   color: white;
-  background-color: #2426217c;
   animation: fade-inA 2s;
   width: 100%;
   text-align: center;
@@ -184,7 +183,6 @@ a.back {
   display: -webkit-flex;
   overflow-x: hidden;
   max-height: 250px;
-  background-color: rgba(22, 26, 31, 0.61);
   position: fixed;
   margin-left: 40%;
   margin-top: 0;
@@ -239,7 +237,6 @@ a.back {
   background-color: #ddd;
   padding: 0.7rem;
   color: white;
-  background-color: #2426217c;
   border-top: 0.3rem solid #e9f1f2;
   animation: fade-inC 2s;
 }
@@ -505,7 +502,6 @@ a {
   background-color: #ddd;
   padding: 0.7rem;
   color: rgb(255, 255, 255);
-  background-color: #2426217c;
   display: flex;
   display: -webkit-flex;
   flex-direction: row;
