@@ -5,6 +5,7 @@
   scroll-behavior: smooth;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: black;
 }
 @import url("https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro");
 :root {

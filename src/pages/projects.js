@@ -1,8 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import "../styles/global.css"
-import MyVideo from "../videos/skyrimSmile.mp4"
-import MyVideoPoster from "../videos/fallbackskyrim.png"
 import BackToTop from "../components/backToTop/backToTop"
 import customersafari from "../videos/Kundsafari.png"
 import comic from "../videos/sketch.png"
@@ -25,10 +23,6 @@ class Projects extends React.Component {
           Back
         </Link>
         <BackToTop />
-        <video className="videoBack" poster={MyVideoPoster} autoPlay loop muted>
-          <source src={MyVideo} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
         <div className="project1">
         <div className="colB">
             <h1>COOP - Service Design</h1>

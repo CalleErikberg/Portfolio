@@ -1,6 +1,4 @@
 import React, { Component } from "react"
-import MyVideo from "../../videos/skyrimSmile.mp4"
-import MyVideoPoster from "../../videos/fallbackskyrim.png"
 import EC from "../../videos/ec.png"
 const axios = require("axios")
 
@@ -21,10 +19,6 @@ class Intro extends Component {
   render() {
     return (
       <div className="row" id="home">
-        <video className="videoBack" poster={MyVideoPoster} autoPlay loop muted>
-          <source src={MyVideo} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
         <div className="column1">
           <img src={EC} />
           <h1> by Erik Calleberg</h1>
