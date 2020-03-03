@@ -629,7 +629,7 @@ a {
   .app {
     max-width: 330px;
   }
-  .fixedButton svg {
+  .fixedButton {
     margin-top: 680px;
     margin-left: 90%;
     background: none;
