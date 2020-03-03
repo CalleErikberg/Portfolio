@@ -221,7 +221,6 @@ a.back {
 .content {
   padding: 0.7rem;
   color: rgb(255, 255, 255);
-  background-color: #2426217c;
   text-align: center;
   border-top: 0.3rem solid #e9f1f2;
   border-bottom: 0.3rem solid #e9f1f2;
@@ -234,7 +233,7 @@ a.back {
 /* Style the contact */
 .contact {
   text-align: center;
-  background-color: #ddd;
+  background-color: black;
   padding: 0.7rem;
   color: white;
   border-top: 0.3rem solid #e9f1f2;
@@ -499,7 +498,7 @@ a {
 
 .about {
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.637);
-  background-color: #ddd;
+  background-color: black;
   padding: 0.7rem;
   color: rgb(255, 255, 255);
   display: flex;
