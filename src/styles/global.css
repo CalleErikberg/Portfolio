@@ -33,7 +33,6 @@ body {
   border-bottom: 0.3rem solid #e9f1f2;
   padding: 0.7rem;
   color: white;
-  background-color: #2426217c;
   display: flex;
   display: -webkit-flex;
   flex-direction: column;
@@ -220,8 +219,6 @@ a.back {
   padding: 0.7rem;
   color: rgb(255, 255, 255);
   text-align: center;
-  border-top: 0.3rem solid #e9f1f2;
-  border-bottom: 0.3rem solid #e9f1f2;
 }
 .content a {
   color: white;
@@ -234,7 +231,6 @@ a.back {
   background-color: black;
   padding: 0.7rem;
   color: white;
-  border-top: 0.3rem solid #e9f1f2;
   animation: fade-inC 2s;
 }
 @keyframes fade-inC {
