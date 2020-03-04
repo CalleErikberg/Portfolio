@@ -16,7 +16,7 @@ body {
   font-family: "Roboto", sans-serif, "Lucida Sans Unicode", "Lucida Grande";
   fill: #ff9800;
   overflow-x: hidden;
-  font-style: bold;
+  font-style: regular;
 }
 /* PROJECTS ___________________________________*/
 .allp {
@@ -24,7 +24,7 @@ body {
   font-family: "Roboto", sans-serif, "Lucida Sans Unicode", "Lucida Grande";
   fill: #ff9800;
   overflow-x: hidden;
-  font-style: bold;
+  font-style: regular;
   font-size: 150%;
   line-height: 1.8rem;
 }
