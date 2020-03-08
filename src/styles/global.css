@@ -211,6 +211,7 @@ a.back {
 .content a {
   color: white;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 /* Style the contact */
