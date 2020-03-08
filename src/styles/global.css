@@ -138,18 +138,6 @@ a.back {
   transform: rotate(180deg);
 }
 /*_______________________________________________*/
-.videoBack {
-  pointer-events: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1000;
-  border: none;
-}
 .fixedButton svg {
   z-index: 6;
   position: fixed;
@@ -383,6 +371,7 @@ a {
   -webkit-transition: 0.2s;
   transition-timing-function: ease-out;
   -webkit-transition-timing-function: ease-out;
+  min-width: 300px;
 }
 @keyframes fade-in {
   from {
