@@ -16,7 +16,7 @@ body {
   font-family: "Roboto", sans-serif, "Lucida Sans Unicode", "Lucida Grande";
   fill: #ff9800;
   overflow-x: hidden;
-  font-style: regular;
+  font-style: light;
 }
 /* PROJECTS ___________________________________*/
 .allp {
@@ -24,14 +24,14 @@ body {
   font-family: "Roboto", sans-serif, "Lucida Sans Unicode", "Lucida Grande";
   fill: #ff9800;
   overflow-x: hidden;
-  font-style: regular;
+  font-style: light;
   font-size: 150%;
   line-height: 1.8rem;
 }
 .project1 {
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.637);
   border-bottom: 0.3rem solid #e9f1f2;
-  padding: 10rem;
+  padding: 8rem;
   color: white;
   display: flex;
   display: -webkit-flex;
@@ -62,8 +62,8 @@ body {
 }
 .colA img {
   padding: 1.1rem;
-  max-width: 650px;
-  max-height: 650px;
+  max-width: 400px;
+  max-height: 400px;
 }
 .colB {
   align-self: center;
@@ -90,8 +90,8 @@ body {
 }
 .colAG img {
   padding: 1.1rem;
-  max-width: 600px;
-  max-height: 600px;
+  max-width: 400px;
+  max-height: 400px;
 }
 .colBG {
   align-self: center;
