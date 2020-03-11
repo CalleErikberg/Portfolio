@@ -598,17 +598,24 @@ a {
     flex-wrap: nowrap;
     justify-content: space-around;
     line-height: 2rem;
+    padding: 10rem;
+  }
+  .project1 img{
+
+    min-width: 300px;
+    max-width: 300px;
+
   }
   .colA {
     width: 100%;
   }
   .colA img {
-    min-width: 330px;
+
     width: 100%;
     padding: none;
   }
   .colAG img {
-    min-width: 330px;
+ 
     width: 100%;
     padding: none;
   }
