@@ -27,6 +27,7 @@ body {
   font-style: regular;
   font-size: 150%;
   line-height: 1.8rem;
+  padding: 10rem;
 }
 .project1 {
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.637);
@@ -77,7 +78,6 @@ body {
   text-align: center;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.637);
   border-bottom: 0.3rem solid #e9f1f2;
-  padding: 10rem;
 }
 .colAG {
   padding: 0.7rem;
@@ -599,7 +599,6 @@ a {
     flex-wrap: nowrap;
     justify-content: space-around;
     line-height: 2rem;
-    padding: 10rem;
   }
   .project1 img{
 
