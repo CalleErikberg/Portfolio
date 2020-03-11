@@ -62,8 +62,8 @@ body {
 }
 .colA img {
   padding: 1.1rem;
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 500px;
+  max-height: 500px;
 }
 .colB {
   align-self: center;
@@ -90,8 +90,8 @@ body {
 }
 .colAG img {
   padding: 1.1rem;
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 500px;
+  max-height: 500px;
 }
 .colBG {
   align-self: center;
