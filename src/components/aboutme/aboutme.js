@@ -25,16 +25,16 @@ class AboutMe extends Component {
         <div className="columnA2">
           <ul class="stats">
             <h1>Competences</h1>
-            <h3>UX/UI Design</h3>
+            <h3>UI Design</h3>
             <li className="skill1">
             </li>
             <h3>Design Thinking</h3>
             <li className="skill2">
             </li>
-            <h3>Adobe Illustrator</h3>
+            <h3>Adobe Suite</h3>
             <li className="skill3">
             </li>
-            <h3>Adobe Experience Design</h3>
+            <h3>Interaction Design</h3>
             <li className="skill4">
             </li>
             <h3>Front-End Development</h3>

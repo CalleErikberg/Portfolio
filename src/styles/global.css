@@ -56,8 +56,8 @@ body {
   display: flex;
   display: -webkit-flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-content: center;
+  justify-content: center;
+  align-content: space-between;
   flex-wrap: wrap;
 }
 .colA img {
@@ -84,8 +84,8 @@ body {
   display: flex;
   display: -webkit-flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-content: center;
+  justify-content: center;
+  align-content: space-between;
   flex-wrap: wrap;
 }
 .colAG img {
