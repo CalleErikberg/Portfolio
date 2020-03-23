@@ -19,9 +19,6 @@ class AboutMe extends Component {
   render() {
     return (
       <div className={this.state.class} id="about">
-        <div className="columnA">
-          <img src={me} alt="" />
-        </div>
         <div className="columnA2">
           <ul class="stats">
             <h1>Competences</h1>
