@@ -30,7 +30,7 @@ class Intro extends Component {
           <p>
             Welcome to my <b>portfolio!</b> Are you looking for
             someone to take a look at your company's graphical look?
-            Someone to create new layouts for <b>your websites</b>, <b>app</b>, <b> logo</b>
+            Someone to create new layouts for <b>your websites</b>, <b>app</b>, <b>logo</b> 
             and/or <b>the design of your products</b>? Contact me, I'm currently itching for 
             work. <b>#frontend #UI-design #masterstudent</b>
           </p>
