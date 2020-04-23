@@ -28,13 +28,13 @@ class Intro extends Component {
           <h1>Hello there!</h1>
 
           <p>
-            Welcome to this handcrafted webpage, built in <b>Gatsby.js</b> and
-            <b> React.js</b>, created by <b>Erik Calleberg</b>. This webpage
-            will act as my portfolio showcasing my skills in UX, UI, Design
-            Thinking, Customer Journey maps, design projects, personality
-            traits, interests and experiences.
+            Welcome to my <b>portfolio!</b> If you are looking for
+            someone to take a look at your company's graphical look?
+            Someone to create new layouts for <b>your websites</b>, <b>app</b>, <b>logo</b>
+            and/or <b>the design of your products</b>? Contact me, I'm currently itching for 
+            work. <b>#frontend #UI-design #masterstudent</b>
           </p>
-          <h4>Below is an API that generates random beers!</h4>
+          <h4>Below is an API that generates random beers!</h4> (just to show off that I made an API work)
           <p>{this.state.name} 🍺</p>
         </div>
       </div>
