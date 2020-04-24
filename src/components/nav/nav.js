@@ -17,16 +17,6 @@ class Nav extends Component {
         </Link>
         <Link
           activeClass="active"
-          to="portfolio"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={400}
-        >
-          Portfolio
-        </Link>
-        <Link
-          activeClass="active"
           to="about"
           spy={true}
           smooth={true}
@@ -44,6 +34,16 @@ class Nav extends Component {
           duration={400}
         >
           Contact
+        </Link>
+        <Link
+          activeClass="active"
+          to="portfolio"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={400}
+        >
+          Portfolio ↗
         </Link>
       </div>
     )
