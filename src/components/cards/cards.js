@@ -63,7 +63,7 @@ class Cards extends Component {
           <Link to="/projects/">
           <Card
             index={4}
-            pic="https://en.wikipedia.org/wiki/Adobe_XD#/media/File:Adobe_XD_CC_icon.svg"
+            pic="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png"
             title="GG.BUDDY"
             firstText="This was a project requested by a friend to improve the layout of their idea to match people with random players on with each other for fast connections and a local voice chat." 
             secondText="The project itself was cancelled but I got to work on web layouts which I think is really fun."
