@@ -97,6 +97,15 @@ class Cards extends Component {
             secondText="The result of the work was a new experience trip for both customers and staff, where the digital service contributes to highlighting the value of an ecological and sustainable lifestyle."
           />
           </Link>
+          <Link to="/projects/">
+          <Card
+            index={8}
+            pic="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Solid_white.svg/1024px-Solid_white.svg.png"
+            title="COOP - Service Design"
+            firstText="The work has been carried out for the food company Coop Sverige AB. The group started the project by participating in two teacher-led workshops to prepare the group members for the real work. The first major step towards creating a current situation analysis of Coop by going to the store and conducting a Customer Safari, Customer Interviews and staff interviews. The insights of these methods were then used as the basis for the continued work of a workshop, brainstorming for solutions, a value map and service map that demonstrates the entire omni channel for Coop."
+            secondText="The result of the work was a new experience trip for both customers and staff, where the digital service contributes to highlighting the value of an ecological and sustainable lifestyle."
+          />
+          </Link>
         </div>
       </div>
     )
