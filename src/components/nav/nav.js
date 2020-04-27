@@ -1,5 +1,6 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
+import { Link } from "react-scroll"
+import { Link as Nav} from "gatsby"
 
 class Nav extends Component {
   render() {
@@ -35,7 +36,7 @@ class Nav extends Component {
         >
           Contact
         </Link>
-        <Link
+        <Nav
           activeClass="active"
           to="/projects/"
           spy={true}
@@ -44,7 +45,7 @@ class Nav extends Component {
           duration={400}
         >
           Portfolio ↗
-        </Link>
+        </Nav>
       </div>
     )
   }
