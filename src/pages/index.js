@@ -20,7 +20,6 @@ class IndexPage extends React.Component {
       <BackToTop />
         <Nav />
         <Intro />
-        <Cards />
         <AboutMe />
         <Contact />
         <Footer />
