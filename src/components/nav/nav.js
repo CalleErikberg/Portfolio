@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "react-scroll"
-import { Link as blub} from "gatsby"
+import { Link as ass} from "gatsby"
 
 class Nav extends Component {
   render() {
@@ -36,16 +36,9 @@ class Nav extends Component {
         >
           Contact
         </Link>
-        <blub
-          activeClass="active"
-          to="/projects/"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={400}
-        >
+        <ass to="projects"        >
           Portfolio ↗
-        </blub>
+        </ass>
       </div>
     )
   }
