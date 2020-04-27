@@ -36,7 +36,13 @@ class Nav extends Component {
         >
           Contact
         </Link>
-        <ass to="projects"        >
+        <ass to="projects"
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={400}
+        >
           Portfolio ↗
         </ass>
       </div>
