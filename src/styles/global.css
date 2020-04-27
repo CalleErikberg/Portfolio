@@ -30,7 +30,6 @@ body {
 }
 .project1 {
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.637);
-  border-bottom: 0.3rem solid #e9f1f2;
   padding: 8rem;
   color: white;
   display: flex;
@@ -76,7 +75,6 @@ body {
   width: 100%;
   text-align: center;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.637);
-  border-bottom: 0.3rem solid #e9f1f2;
 }
 .colAG {
   padding: 0.7rem;

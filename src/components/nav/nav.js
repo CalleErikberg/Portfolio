@@ -1,12 +1,12 @@
 import React, { Component } from "react"
-import { Link } from "react-scroll"
-import { Link as ass} from "gatsby"
+import aids from "react-scroll"
+import { Link } from "gatsby"
 
 class Nav extends Component {
   render() {
     return (
       <div className="topnav">
-      <Link
+      <aids.Link
           activeClass="active"
           to="home"
           spy={true}
@@ -15,8 +15,8 @@ class Nav extends Component {
           duration={400}
         >
           Home
-        </Link>
-        <Link
+        </aids.Link>
+        <aids.Link
           activeClass="active"
           to="about"
           spy={true}
@@ -25,8 +25,8 @@ class Nav extends Component {
           duration={400}
         >
           About
-        </Link>
-        <Link
+        </aids.Link>
+        <aids.Link
           activeClass="active"
           to="contact"
           spy={true}
@@ -35,17 +35,13 @@ class Nav extends Component {
           duration={400}
         >
           Contact
-        </Link>
+        </aids.Link>
         <Link 
-          activeClass="active"
-          to="projects"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={400}
+          to="/projects/"
         >
           Portfolio ↗
         </Link>
+     
       </div>
     )
   }
