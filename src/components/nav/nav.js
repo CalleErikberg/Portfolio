@@ -37,7 +37,7 @@ class Nav extends Component {
         </Link>
         <Link
           activeClass="active"
-          to="portfolio"
+          to="projects"
           spy={true}
           smooth={true}
           offset={-70}
