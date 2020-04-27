@@ -12,7 +12,7 @@ class AboutMe extends Component {
   handleScroll = () => {
     const { scrollY } = window || {}
 
-    if (scrollY > 500) {
+    if (scrollY > 100) {
       this.setState({ class: "about" })
     }
   }
