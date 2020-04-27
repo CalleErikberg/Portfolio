@@ -36,7 +36,8 @@ class Nav extends Component {
         >
           Contact
         </Link>
-        <ass to="projects"
+        <Link 
+        to="projects"
           activeClass="active"
           spy={true}
           smooth={true}
@@ -44,7 +45,7 @@ class Nav extends Component {
           duration={400}
         >
           Portfolio ↗
-        </ass>
+        </Link>
       </div>
     )
   }
