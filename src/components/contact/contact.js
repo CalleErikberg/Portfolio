@@ -11,7 +11,7 @@ class Contact extends Component {
   handleScroll = () => {
     const { scrollY } = window || {}
 
-    if (scrollY > 1300) {
+    if (scrollY > 2000) {
       this.setState({ class: "contact" })
     }
   }

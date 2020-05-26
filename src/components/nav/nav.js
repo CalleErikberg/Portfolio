@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import aids from "react-scroll"
-import { Link } from "gatsby"
 
 class Nav extends Component {
   render() {
@@ -26,7 +25,19 @@ class Nav extends Component {
         >
           About
         </aids.Link>
+        
         <aids.Link
+          activeClass="active"
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={400}
+        >
+          Portfolio
+          </aids.Link>
+
+          <aids.Link
           activeClass="active"
           to="contact"
           spy={true}
@@ -36,12 +47,6 @@ class Nav extends Component {
         >
           Contact
         </aids.Link>
-        <Link 
-          to="/projects/"
-        >
-          Portfolio ↗
-        </Link>
-     
       </div>
     )
   }

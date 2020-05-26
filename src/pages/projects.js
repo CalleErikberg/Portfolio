@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Component } from "react"
 import { Link } from "gatsby"
 import "../styles/global.css"
 import BackToTop from "../components/backToTop/backToTop"
@@ -15,9 +15,24 @@ import coopsketch from "../videos/coop_sketch.png"
 import fondbergs from "../videos/fondberg_sketch.png"
 
 class Projects extends React.Component {
+  state = {
+    class: "hidden",
+  }
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll)
+  }
+
+  handleScroll = () => {
+    const { scrollY } = window || {}
+
+    if (scrollY > 1300) {
+      this.setState({ class: "projects" })
+    }
+  }
   render() {
     return (
-      <div className="allp">
+      <div className={this.state.class} id="projects">
+        <div className="allp">
         <title>Erik Calleberg - Portfolio</title>
         <Link className="back" to="/">
           Back
@@ -129,6 +144,7 @@ class Projects extends React.Component {
             <img src={EC} alt="logo3" />
           </div>
         </div>
+      </div>
       </div>
     )
   }

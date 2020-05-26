@@ -453,6 +453,7 @@ a.back {
   body {
     width: 100% !important;
     overflow-x: hidden !important;
+    font-size: -50%;
   }
   .row {
     flex-direction: column !important;
@@ -470,6 +471,7 @@ a.back {
     margin-right: 50%;
     margin-left: 0;
     margin-top: 0;
+    position: fixed;
   }
   .about {
     flex-direction: column !important;
@@ -498,7 +500,8 @@ a.back {
     flex-direction: column !important;
     flex-wrap: nowrap;
     justify-content: space-around;
-    line-height: 2rem;
+    line-height: 3rem;
+    padding: 1rem;
   }
   .project1 img{
 
