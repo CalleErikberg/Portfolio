@@ -18,6 +18,7 @@ class Contact extends Component {
   render() {
     return (
       <div className={this.state.class} id="contact">
+        <h1 id="textme">Contact me!</h1>
         <div className="linkimg">
           <a href="mailto:erik.calleberg@gmail.com">
             <img

@@ -339,7 +339,17 @@ a.back {
   font-size: 130%;
   text-shadow: 0.1px 0.2px black;
 }
+#porttitle{
 
+text-align: center;
+
+}
+
+#textme{
+
+  text-align: center;
+
+}
 /* Container for flexboxes */
 .row {
   text-shadow: 0.1px 0.2px black;
@@ -444,6 +454,7 @@ a.back {
   padding: 0.1rem;
   margin-bottom: 0px;
   color: white;
+  font-size: 70%;
 }
 /* On screens that are 700px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1030px) {
