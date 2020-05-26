@@ -522,6 +522,11 @@ a.back {
     width: 100%;
     padding: none;
   }
+  .colBG {
+
+  line-height: 1.8rem;
+
+  }
   h1 {
     line-height: 3rem;
     overflow-y: hidden;
@@ -530,7 +535,6 @@ a.back {
     max-width: 330px;
   }
   .fixedButton {
-    margin-top: 680px;
     margin-left: 90%;
     background: none;
   }
