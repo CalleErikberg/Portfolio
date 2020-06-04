@@ -13,6 +13,9 @@ import Comintelli from "../videos/comintelly.png"
 import Comintelli2 from "../videos/lo_fi.png"
 import coopsketch from "../videos/coop_sketch.png"
 import fondbergs from "../videos/fondberg_sketch.png"
+import digilar from "../videos/next.png"
+import mvp from "../videos/engelskaV2.mp4"
+import fback from "../videos/2scrren.png"
 
 class Projects extends React.Component {
   state = {
@@ -120,13 +123,44 @@ class Projects extends React.Component {
               choices that should motivate the users to answer the questionnaire
               questions. This prototype served as research in how questionnaires
               can be made interactive, less stressful to do and not feel like a
-              tedious task. 
+              tedious task. <a
+                className="protLink"
+                href="https://xd.adobe.com/view/aeb4a364-6433-4626-6f5f-0809d3e52350-d885/?fbclid=IwAR1fnd-H95kxd-Egt1EgpvWYHqdMXqHKdjIYIEjKfsGWXgmF_ya2BrmpjPg"
+                target="_blank"
+              >
+                <b>Click here to see the final prototype.</b>
+              </a>
             </p>
           </div>
           <div className="colA">
             <img src={fondbergs} alt="sketch fondberg" />
             <video className="app" poster={fallbackfw} autoPlay loop muted>
               <source src={FW} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div className="project1">
+          
+          <div className="colB">
+            <h1>Sharp design project - Digilär</h1>
+            <p>
+            The purpose of this practical design project was to create a digital platform for Digilär. Digilär is a part of Natur & Kultur and is 
+            currently working to digitize teaching and learning. 
+            The purpose of the digital platform was to explore how it is possible to attract university students to use a 
+            digital supplement for learning. The aim of the project was to create a design concept that
+             Digilär could use to create a digital platform for universities and colleges. 
+             The project resulted in a data collection with students and teachers and a high-fi prototype that met defined needs. 
+             The prototype was developed through various phases and iterations with users and clients. 
+             The project was carried out similar to a design thinking process where different phases deal with different 
+             parts in the creation of a good design.
+
+            </p>
+          </div>
+          <div className="colA">
+            <img src={digilar} alt="sketch digilar" />
+            <video className="app" poster={fback} autoPlay loop muted>
+              <source src={mvp} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
