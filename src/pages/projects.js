@@ -184,7 +184,7 @@ class Projects extends React.Component {
             <h1>Copywriter Examples</h1>
             <p>
               Here are some pieces of text that I have written to either shorten something down 
-              or write a selling statement of a project.
+              or write a selling statement of a project. With more to come!
             </p>
           </div>
           <div className="colAG">
@@ -202,7 +202,7 @@ quality course literature.”</i>
             Probe Pics was a concept for a webb plug-in that would allow the user to quickly do a reverse image search 
             to confirm the validity of news and social media posts </p><br></br>
 
-<p><i>“Be sure- probe it!”</i></p>
+<p><i>“Be sure - probe it!”</i></p>
 
             
           </div>
