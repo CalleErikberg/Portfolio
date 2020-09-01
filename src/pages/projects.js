@@ -191,8 +191,8 @@ class Projects extends React.Component {
           <h1>POV Statement - Sharp Design Projekt: Digilär</h1>
             <p>
             To conclude the analyzation a POV-statement was written for the group to know the focus of the project in a short sentence: <br></br>
-
-<i>“Highschool/University students <b>need</b> to feel that buying course literature is beneficial, 
+</p>
+<p><i>“Highschool/University students <b>need</b> to feel that buying course literature is beneficial, 
 reliable and affordable <b>to support</b> their learning meanwhile the publishers can produce high 
 quality course literature.”</i>
 
@@ -200,11 +200,11 @@ quality course literature.”</i>
             <h1>Project - Probe Pics: Slogan</h1>
             <p>
             Probe Pics was a concept for a webb plug-in that would allow the user to quickly do a reverse image search 
-            to confirm the validity of news and social media posts <br></br>
+            to confirm the validity of news and social media posts </p><br></br>
 
-<i>“Be sure- probe it!”</i>
+<p><i>“Be sure- probe it!”</i></p>
 
-            </p>
+            
           </div>
         </div>
       </div>

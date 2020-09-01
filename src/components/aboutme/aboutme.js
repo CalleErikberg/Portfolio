@@ -25,7 +25,7 @@ class AboutMe extends Component {
             <h3>UI Design</h3>
             <li className="skill1">
             </li>
-            <h3>Design Thinking</h3>
+            <h3>Copywriting</h3>
             <li className="skill2">
             </li>
             <h3>Adobe Suite</h3>
@@ -40,7 +40,7 @@ class AboutMe extends Component {
           </ul>
         </div>
         <div className="columnA3">
-          <h2>An UX/UI Designer!</h2>
+          <h2>An UX/UI Designer and aspiring Copywriter!</h2>
           <p>
             I am 23 years old, raised in Stockholm where I currently live. My
             interests are computer games, orienteering, memes and an active
