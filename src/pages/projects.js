@@ -179,6 +179,34 @@ class Projects extends React.Component {
             <img src={EC} alt="logo3" />
           </div>
         </div>
+        <div className="project1G">
+          <div className="colBG">
+            <h1>Copywriter Examples</h1>
+            <p>
+              Here are some pieces of text that I have written to either shorten something down 
+              or write a selling statement of a project.
+            </p>
+          </div>
+          <div className="colAG">
+          <h1>POV Statement - Sharp Design Projekt: Digilär</h1>
+            <p>
+            To conclude the analyzation a POV-statement was written for the group to know the focus of the project in a short sentence: <br></br>
+
+<i>“Highschool/University students <b>need</b> to feel that buying course literature is beneficial, 
+reliable and affordable <b>to support</b> their learning meanwhile the publishers can produce high 
+quality course literature.”</i>
+
+            </p>
+            <h1>Project - Probe Pics: Slogan</h1>
+            <p>
+            Probe Pics was a concept for a webb plug-in that would allow the user to quickly do a reverse image search 
+            to confirm the validity of news and social media posts <br></br>
+
+<i>“Be sure- probe it!”</i>
+
+            </p>
+          </div>
+        </div>
       </div>
       </div>
     )
