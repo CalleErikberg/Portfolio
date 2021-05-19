@@ -19,11 +19,6 @@ class Intro extends Component {
   render() {
     return (
       <div className="row" id="home">
-        <div className="column1">
-          <img src={EC} />
-          <h1> by Erik Calleberg</h1>
-        </div>
-
         <div className="column2">
           <h1>Hello there!</h1>
 
