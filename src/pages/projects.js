@@ -103,10 +103,6 @@ class Projects extends React.Component {
               </a>
             </p>
           </div>
-          <div className="colA">
-            <img src={Comintelli} alt="sketch" id="ComintelliSketch" />
-            <img src={Comintelli2} alt="lo-fi" />
-          </div>
         </div>
         <div className="project1">
           
@@ -158,7 +154,6 @@ class Projects extends React.Component {
             </p>
           </div>
           <div className="colA">
-            <img src={digilar} alt="sketch digilar" />
             <video className="app" poster={fback} autoPlay loop muted>
               <source src={mvp} type="video/mp4" />
               Your browser does not support the video tag.
@@ -176,7 +171,6 @@ class Projects extends React.Component {
           <div className="colAG">
             <img src={frostis} alt="logo1" />
             <img src={skramyran} alt="logo2" />
-            <img src={EC} alt="logo3" />
           </div>
         </div>
         <div className="project1G">

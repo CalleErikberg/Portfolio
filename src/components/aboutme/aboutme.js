@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import me from "../../videos/meme.png"
 
 class AboutMe extends Component {
   state = {
@@ -22,7 +21,7 @@ class AboutMe extends Component {
         <div className="columnA2">
           <ul class="stats">
             <h1>Competences</h1>
-            <h3>UI Design</h3>
+            <h3>UI-design</h3>
             <li className="skill1">
             </li>
             <h3>Copywriting</h3>
@@ -31,7 +30,7 @@ class AboutMe extends Component {
             <h3>Adobe Suite</h3>
             <li className="skill3">
             </li>
-            <h3>Interaction Design</h3>
+            <h3>UX-design</h3>
             <li className="skill4">
             </li>
             <h3>Front-End Development</h3>
@@ -42,10 +41,11 @@ class AboutMe extends Component {
         <div className="columnA3">
           <h2>An UX/UI Designer and aspiring Copywriter!</h2>
           <p>
-            I am 23 years old, raised in Stockholm where I currently live. My
-            interests are computer games, orienteering, memes and an active
+            I am 24 years old, raised in Stockholm where I currently live. My
+            interests are computer games, history, memes and an active
             outdoor lifestyle. I am currently a student at Södertörns Högskola studying 
-            their Master's programme "User Experience and  Interactive Media Design"!
+            their Master's programme "User Experience and  Interactive Media Design" and
+            graduating this summer!
           </p>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 
+
 class Contact extends Component {
   state = {
     class: "hidden",
@@ -22,7 +23,7 @@ class Contact extends Component {
         <div className="linkimg">
           <a href="mailto:erik.calleberg@gmail.com">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Gmail_Icon.svg/180px-Gmail_Icon.svg.png"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/640px-Gmail_icon_%282020%29.svg.png"
               alt="Mail"
             />
           </a>
@@ -34,7 +35,7 @@ class Contact extends Component {
           </a>
           <a href="https://github.com/CalleErikberg">
             <img
-              src="https://magentys.io/wp-content/uploads/2017/04/github-logo-1-300x300.png"
+              src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
               alt="GitHub"
             />
           </a>

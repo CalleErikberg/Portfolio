@@ -5,16 +5,19 @@
   scroll-behavior: smooth;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: black;
+  background-color: white;
+  color: black;
+  text-shadow: none;
 }
 @import url("https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro");
 :root {
-  --mainColor: #ff9800;
+  --mainColor: #7aa9f3;
 }
 body {
-  margin: 0;
+  margin-left: 10%;
+  margin-right: 10%;
   font-family: "Roboto", sans-serif, "Lucida Sans Unicode", "Lucida Grande";
-  fill: #ff9800;
+  fill: #1366eb;
   overflow-x: hidden;
   font-style: light;
 }
@@ -30,7 +33,7 @@ body {
 }
 .project1 {
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.637);
-  padding: 8rem;
+  padding: 1rem;
   color: white;
   display: flex;
   display: -webkit-flex;
@@ -176,7 +179,7 @@ a.back {
   flex-direction: row nowrap;
   align-items: center;
   cursor: pointer;
-  color: #fff;
+  color: black;
   padding: 17px;
   font-weight: bold;
   text-decoration: none;
@@ -215,7 +218,6 @@ a.back {
 /* Style the contact */
 .contact {
   text-align: center;
-  background-color: black;
   padding: 0.7rem;
   color: white;
   animation: fade-inC 2s;
@@ -372,28 +374,26 @@ text-align: center;
 }
 /* Bild i vänster-column*/
 .column1 img {
-  padding: 1.1rem;
+  padding: 0.7rem;
   height: 100%;
   width: 100%;
   max-width: 650px;
 }
 .column1 h1 {
-  padding-left: 1.1rem;
+  padding-left: 0.7rem;
 }
 /* Column to the right*/
 .column2 {
   padding: 0.7rem;
   font-size: 160%;
   max-width: 50%;
-  color: white;
-  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.637);
+  color: rgb(0, 0, 0);
 }
 /*About*/
 /* Style the about me */
 
 .about {
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.637);
-  background-color: black;
   padding: 0.7rem;
   color: rgb(255, 255, 255);
   display: flex;
@@ -431,7 +431,7 @@ text-align: center;
 }
 .stats {
   list-style-type: none;
-  padding: 10;
+  padding: 1;
   max-width: 410px;
   box-sizing: border-box;
 }
@@ -493,7 +493,7 @@ text-align: center;
     line-height: 2rem;
   }
   .column1 {
-    padding: 1.1rem;
+    padding: 0.7rem;
     margin-top: 4rem;
     overflow-y: hidden;
   }
