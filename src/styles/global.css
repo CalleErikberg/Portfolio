@@ -2,6 +2,7 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif, "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+    font-style: thin;
   scroll-behavior: smooth;
   background-repeat: no-repeat;
   background-size: cover;
