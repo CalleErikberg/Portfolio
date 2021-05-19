@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import EC from "../../videos/ec.png"
 const axios = require("axios")
 
 class Intro extends Component {
