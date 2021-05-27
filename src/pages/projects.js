@@ -8,7 +8,7 @@ import FW from "../videos/appfw.mp4"
 import fallbackfw from "../videos/appfw.png"
 import frostis from "../videos/frostis.png"
 import skramyran from "../videos/SKRAMYRANBLACK.png"
-import EC from "../videos/ec.png"
+import ecb from "../videos/ecblack.png"
 import Comintelli from "../videos/comintelly.png"
 import Comintelli2 from "../videos/lo_fi.png"
 import coopsketch from "../videos/coop_sketch.png"
@@ -16,6 +16,9 @@ import fondbergs from "../videos/fondberg_sketch.png"
 import digilar from "../videos/next.png"
 import mvp from "../videos/engelskaV2.mp4"
 import fback from "../videos/2scrren.png"
+import select1 from "../videos/Select1.png"
+import startlogin from "../videos/StartLogin.png"
+import swipe from "../videos/Swipe.png"
 
 class Projects extends React.Component {
   state = {
@@ -41,6 +44,28 @@ class Projects extends React.Component {
           Back
         </Link>
         <BackToTop />
+          <div className="project1">
+        <div className="colB">
+          <h1 id="porttitle">Portfolio</h1>
+            <h1>Moonshot</h1>
+            <p>
+              Moonshot is an app that I designed that is going to be published
+              in late summer (hopefully) and it serves as a tool for project owners
+              and collaborators to find each other. It is inspired by the legendary
+              swiping function to gamify the user experience, making it more interactive
+              and clear for both project owners and collaborators. The design was made
+              in Adobe XD, and after many iterations came to look like this! The design
+              has been delivered to a programmer and is currently being coded.  
+              {" "}
+            </p>
+          </div>
+          <div className="colA">
+            <img src={select1} alt="app1" />
+            <img src={startlogin} alt="app2" />
+            <img src={swipe} alt="app3" />
+          </div>
+          
+        </div>
         <div className="project1">
         <div className="colB">
           <h1 id="porttitle">Portfolio</h1>
@@ -162,15 +187,15 @@ class Projects extends React.Component {
         </div>
         <div className="project1G">
           <div className="colBG">
-            <h1>Graphical Productions</h1>
+            <h1>Logos</h1>
             <p>
-              Here are some graphic productions such as logotypes,
-              illustrations, sketches, prototypes, style documents and ideas.
+              Here are some logotypes I have created.
             </p>
           </div>
           <div className="colAG">
             <img src={frostis} alt="logo1" />
             <img src={skramyran} alt="logo2" />
+            <img src={ecb} alt="logo3" />
           </div>
         </div>
         <div className="project1G">
