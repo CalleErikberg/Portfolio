@@ -8,6 +8,7 @@ import Footer from "../components/footer/footer"
 import BackToTop from "../components/backToTop/backToTop"
 import favicon from "../videos/favicon.png"
 import Projects from "./projects"
+import background from "../videos/backg.png"
 
 
 
