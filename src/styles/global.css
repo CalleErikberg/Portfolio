@@ -4,6 +4,7 @@
     "Lucida Sans", Arial, sans-serif;
     font-style: thin;
   scroll-behavior: smooth;
+  background-image: "../videos/backg.png";
   background-repeat: no-repeat;
   background-size: cover;
   background-color: white;
