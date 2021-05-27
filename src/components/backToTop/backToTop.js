@@ -9,7 +9,7 @@ class BackToTop extends Component {
       <div className="fixedButton" onClick={() => this.scrollTop()}>
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
           <path
-            fill="none"
+            fill="#000"
             stroke="#000"
             strokeWidth="23.5"
             strokeOpacity="null"
