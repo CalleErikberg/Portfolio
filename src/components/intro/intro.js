@@ -1,8 +1,8 @@
 import React, { Component } from "react"
-const axios = require("axios")
+//const axios = require("axios")
 
 class Intro extends Component {
-  state = {
+ /* state = {
     name: "",
   }
   async getBeer() {
@@ -14,7 +14,7 @@ class Intro extends Component {
   componentDidMount() {
     this.getBeer()
     //const ass=Math.random()
-  }
+  }*/
   render() {
     return (
       <div className="row" id="home">
