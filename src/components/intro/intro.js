@@ -26,8 +26,6 @@ class Intro extends Component {
             <br></br>Contact me, I'm currently itching for 
             work. <b>#frontend #UI-design #Copywriting #UX-design #Mastersdegree</b>
           </p>
-          <h4>Below is an API that generates random beers!</h4> (just to show off that I made an API work)
-          <p>{this.state.name} 🍺</p>
         </div>
       </div>
     )
