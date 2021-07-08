@@ -62,7 +62,7 @@ class Projects extends React.Component {
           <div className="colA">
             <img src={select1} alt="app1" />
             <img src={startlogin} alt="app2" />
-            <img src={swipe} alt="app3" />
+            {/* <img src={swipe} alt="app3" /> */}
           </div>
           
         </div>
