@@ -18,7 +18,6 @@ import mvp from "../videos/engelskaV2.mp4"
 import fback from "../videos/2scrren.png"
 import select1 from "../videos/Select1.png"
 import startlogin from "../videos/StartLogin.png"
-import swipe from "../videos/Swipe.png"
 
 class Projects extends React.Component {
   state = {
