@@ -569,3 +569,14 @@ text-align: center;
     }
   }
 }
+@media screen and (max-width: 900px) {
+
+html,body{
+  font-size: 90%;
+  max-width: 100vw;
+  overflow-x: hidden !important;
+}
+.topnav{
+  display: none;
+ }
+}

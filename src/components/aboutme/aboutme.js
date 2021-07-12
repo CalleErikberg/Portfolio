@@ -43,9 +43,7 @@ class AboutMe extends Component {
           <p>
             I am 24 years old, raised in Stockholm where I currently live. My
             interests are computer games, history, memes and an active
-            outdoor lifestyle. I am currently a student at Södertörns Högskola studying 
-            their Master's programme "User Experience and  Interactive Media Design" and
-            graduating this summer!
+            outdoor lifestyle. I have just graduated Södertörn University's Master's programme "User Experience and Interactive Media Design"!
           </p>
         </div>
       </div>
