@@ -20,7 +20,6 @@ class Intro extends Component {
       <div className="row" id="home">
         <div className="column2">
           <h1>Hello there!</h1>
-
           <p>
             Welcome to my <b>portfolio!</b>    
             <br></br>Contact me, I'm currently itching for 
