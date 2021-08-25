@@ -65,7 +65,6 @@ class Projects extends React.Component {
         </div>
           <div className="project1">
         <div className="colB">
-          <h1 id="porttitle">Portfolio</h1>
             <h1>Moonshot</h1>
             <p>
               Moonshot is an app that I designed that is going to be published
