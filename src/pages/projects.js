@@ -43,6 +43,26 @@ class Projects extends React.Component {
           Back
         </Link>
         <BackToTop />
+        <div className="project1">
+        <div className="colB">
+          <h1 id="porttitle">Portfolio</h1>
+            <h1>Dating application layout</h1>
+            <p>
+              This is a project composes of two screens that of how the user is 
+              guided into purchasing premium. This project was made in my free time to practice Figma and
+              building layouts in the software. As you can see, I used Tinder as inspiration and copied 
+              a lot of their UI, colors and business model. One screen for mobile and one for tablets.
+              {" "}
+              <a
+                className="protLink"
+                href="https://www.figma.com/file/sdtkpFBW5Ma44zWzFAsikB/ArbetsprovDreamify_erik_calleberg?node-id=0%3A1"
+                target="_blank"
+              > 
+                 <b>Click here to see the project.</b>
+                </a>
+            </p>
+          </div>        
+        </div>
           <div className="project1">
         <div className="colB">
           <h1 id="porttitle">Portfolio</h1>
@@ -56,6 +76,13 @@ class Projects extends React.Component {
               in Adobe XD, and after many iterations came to look like this! The design
               has been delivered to a programmer and is currently being coded.  
               {" "}
+              <a
+                className="protLink"
+                href="https://xd.adobe.com/view/11c62f85-f3df-4608-9d60-2cd91c3dcbc4/"
+                target="_blank"
+              > 
+                 <b>Click here to see the final prototype.</b>
+                </a>
             </p>
           </div>
           <div className="colA">
