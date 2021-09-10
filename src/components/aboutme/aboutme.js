@@ -24,7 +24,7 @@ class AboutMe extends Component {
             <h3>UI-design</h3>
             <li className="skill1">
             </li>
-            <h3>Copywriting</h3>
+            <h3>React.js</h3>
             <li className="skill2">
             </li>
             <h3>Adobe Suite</h3>
@@ -39,11 +39,11 @@ class AboutMe extends Component {
           </ul>
         </div>
         <div className="columnA3">
-          <h2>An UX/UI Designer and aspiring Copywriter!</h2>
+          <h2>An aspiring Front-end Developer with UX/UI Know-how!</h2>
           <p>
             I am 24 years old, raised in Stockholm where I currently live. My
             interests are computer games, history, memes and an active
-            outdoor lifestyle. I have just graduated Södertörn University's Master's programme "User Experience and Interactive Media Design"!
+            outdoor lifestyle. I have just graduated Södertörn University with a Master's degree in Media Technology!
           </p>
         </div>
       </div>

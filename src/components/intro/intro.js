@@ -23,7 +23,7 @@ class Intro extends Component {
           <p>
             Welcome to my <b>portfolio!</b>    
             <br></br>Contact me, I'm currently itching for 
-            work. <b>#frontend #UI-design #Copywriting #UX-design #Mastersdegree</b>
+            work. <b>#frontend #UI #UX #Mastersdegree</b>
           </p>
         </div>
       </div>
