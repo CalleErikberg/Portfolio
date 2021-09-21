@@ -65,6 +65,24 @@ class Projects extends React.Component {
         </div>
         <div className="project1">
         <div className="colB">
+            <h1>Commerce.js + Stipe Web application</h1>
+            <p>
+              This project aims to improve my skills in React, the usage of APIs and Hooks. The website is made
+              to look like an e-shop with full mobile compatability. The website has fully integrated cart, checkout,
+              payment and confirmation functionality that will send a confirmation e-mail to both the customer and store owner.
+              {" "}
+              <a
+                className="protLink"
+                href="https://commercejsmerchproject.netlify.app/"
+                target="_blank"
+              > 
+                 <b>Click here to see the project on Netlify.</b>
+                </a>
+            </p>
+          </div>        
+        </div>
+        <div className="project1">
+        <div className="colB">
             <h1>Dating application layout</h1>
             <p>
               This is a project composes of two screens that of how the user is 

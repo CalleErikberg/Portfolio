@@ -26,7 +26,7 @@ class IndexPage extends React.Component {
 <meta HTTP-EQUIV="Expires" CONTENT="-10"/>
         </head>
       <BackToTop />
-        <Nav />
+        {/*<Nav />*/}
         <Intro />
         <AboutMe />
         <Projects/>
