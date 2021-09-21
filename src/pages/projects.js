@@ -45,6 +45,8 @@ class Projects extends React.Component {
         <div className="project1">
         <div className="colB">
           <h1 id="porttitle">Portfolio</h1>
+          <br></br>
+          <br></br>
             <h1>React.js amazon clone project</h1>
             <p>
               This is a I project made on my free time
