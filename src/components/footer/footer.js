@@ -6,7 +6,7 @@ class Footer extends Component {
       <div className="footer">
         <p>
           This site was made by Erik Calleberg using Gatsby.js Last updated:
-          21/09-2021
+          11/10-2021
         </p>
       </div>
     )
