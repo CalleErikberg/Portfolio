@@ -22,28 +22,23 @@ class AboutMe extends Component {
           <ul class="stats">
             <h1>Competences</h1>
             <h3>UI-design</h3>
-            <li className="skill1">
-            </li>
+            <h3 className="skill1" />
             <h3>React.js</h3>
-            <li className="skill2">
-            </li>
+            <li className="skill2" />
             <h3>Adobe Suite</h3>
-            <li className="skill3">
-            </li>
+            <li className="skill3" />
             <h3>UX-design</h3>
-            <li className="skill4">
-            </li>
+            <li className="skill4" />
             <h3>Front-End Development</h3>
-            <li className="skill4">
-            </li>
+            <li className="skill4" />
           </ul>
         </div>
         <div className="columnA3">
           <h2>An aspiring Front-end Developer with UX/UI Know-how!</h2>
           <p>
             I am 24 years old, raised in Stockholm where I currently live. My
-            interests are computer games, history, memes and an active
-            outdoor lifestyle. I have just graduated Södertörn University with a Master's degree in Media Technology!
+            interests are computer games, history, memes and an active outdoor
+            lifestyle. I am working with Front-End Development!
           </p>
         </div>
       </div>
