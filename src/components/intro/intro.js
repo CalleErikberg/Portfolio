@@ -2,7 +2,7 @@ import React, { Component } from "react"
 //const axios = require("axios")
 
 class Intro extends Component {
- /* state = {
+  /* state = {
     name: "",
   }
   async getBeer() {
@@ -21,9 +21,11 @@ class Intro extends Component {
         <div className="column2">
           <h1>Hello there!</h1>
           <p>
-            Welcome to my <b>portfolio!</b>    
-            <br></br>Contact me, I'm currently itching for 
-            work. <b>#frontend #UI #UX #Mastersdegree</b>
+            Welcome to my <b>portfolio!</b>
+            <br />Contact me, I'm currently working as a Front-end Developer at
+            IC Control Media and Sport AB but is looking with fire in my eyes
+            toward the UX/UI-industry!
+            <b>#frontend #UI #UX #Mastersdegree</b>
           </p>
         </div>
       </div>
