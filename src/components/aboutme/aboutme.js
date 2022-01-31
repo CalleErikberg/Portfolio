@@ -23,7 +23,7 @@ class AboutMe extends Component {
             <h1>Competences</h1>
             <h3>UI-design</h3>
             <h3 className="skill1" />
-            <h3>React.js</h3>
+            <h3>CMS</h3>
             <li className="skill2" />
             <h3>Adobe Suite</h3>
             <li className="skill3" />

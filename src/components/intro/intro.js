@@ -22,10 +22,11 @@ class Intro extends Component {
           <h1>Hello there!</h1>
           <p>
             Welcome to my <b>portfolio!</b>
-            <br />Contact me, I'm currently working as a Front-end Developer at
-            IC Control Media and Sport AB but is looking with fire in my eyes
-            toward the UX/UI-industry!
-            <b>#frontend #UI #UX #Mastersdegree</b>
+            <br />
+            Contact me, I'm recently completed a short position as a Front-end
+            Developer at IC Control Media and Sport AB. I am now looking, with
+            fire in my eyes, toward the UX/UI-industry!
+            <b>#juniorfrontend #UI #UX #Mastersdegree</b>
           </p>
         </div>
       </div>
