@@ -131,16 +131,7 @@ class Projects extends React.Component {
                 owners and collaborators to find each other. It is inspired by
                 the legendary swiping function to gamify the user experience,
                 making it more interactive and clear for both project owners and
-                collaborators. The design was made in Adobe XD, and after many
-                iterations came to look like this! The design has been delivered
-                to a programmer and is currently being coded.{" "}
-                <a
-                  className="protLink"
-                  href="https://xd.adobe.com/view/11c62f85-f3df-4608-9d60-2cd91c3dcbc4/"
-                  target="_blank"
-                >
-                  <b>Click here to see the final prototype.</b>
-                </a>
+                collaborators. The design was made in Adobe XD.{" "}
               </p>
             </div>
             <div className="colA">
