@@ -23,7 +23,7 @@ class Intro extends Component {
           <p>
             Welcome to my <b>portfolio!</b>
             <br />
-            Contact me, I'm recently completed a short position as a Front-end
+            Contact me, I recently completed a short position as a Front-end
             Developer at IC Control Media and Sport AB. I am now looking, with
             fire in my eyes, toward the UX/UI-industry!
             <b>#juniorfrontend #UI #UX #Mastersdegree</b>
