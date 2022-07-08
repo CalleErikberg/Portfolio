@@ -63,6 +63,14 @@ class Projects extends React.Component {
               </p>
             </div>
           </div>
+ <div className="project1">
+            <div className="colB">
+              <h1>BountyBike</h1>
+              <p>
+                MBountyBike is an app that I designed and it serves as a tool for people to stay in shape, save the environment and collect rewards. It is inspired by the many fitness, eco and cycling apps that exist today. The project ended due to lack of funding but a high-fi prototype remains. The design was made, by me, in Figma.{" "}
+              </p>
+            </div>
+    </div>
           <div className="project1">
             <div className="colB">
               <h1>Moonshot</h1>
