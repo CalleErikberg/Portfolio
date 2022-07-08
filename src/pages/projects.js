@@ -42,66 +42,7 @@ class Projects extends React.Component {
           <Link className="back" to="/">
             Back
           </Link>
-          <div className="project1">
-            <div className="colB">
-              <h1 id="porttitle">Portfolio</h1>
-              <br />
-              <br />
-              <h1>React.js amazon clone project</h1>
-              <p>
-                This is a I project made on my free time with the purpose of
-                improving my skills in React. The website is made to look like
-                Amazon's website. The website is built using hooks, Context API,
-                shopping basket functionality, React Link and Router for
-                seamless paging without refreshing the page and materials.ui.{" "}
-                <a
-                  className="protLink"
-                  href="https://clone-1a757.web.app/"
-                  target="_blank"
-                >
-                  <b>Click here to see the project on Firebase.</b>
-                </a>
-              </p>
-            </div>
-          </div>
-          <div className="project1">
-            <div className="colB">
-              <h1>Fullstack Gallery from Flickr API</h1>
-              <p>
-                This project aimed for me to get some experience in back-end
-                applications as well a making a fullstack project. In this
-                project, I made a gallery from Flickr's REST API for photo
-                searching, uing only HTML, CSS, Vanilla JS!!!, Node.JS and
-                Express.js!{" "}
-                <a
-                  className="protLink"
-                  href="https://github.com/CalleErikberg/FullstackGallery/tree/master"
-                  target="_blank"
-                >
-                  <b>Click here to see the project on GitHub.</b>
-                </a>
-              </p>
-            </div>
-          </div>
-          <div className="project1">
-            <div className="colB">
-              <h1>Commerce.js + Stipe Web application</h1>
-              <p>
-                This project aims to improve my skills in React, the usage of
-                APIs and Hooks. The website is made to look like an e-shop with
-                full mobile compatability. The website has fully integrated
-                cart, checkout, payment and confirmation functionality that will
-                send a confirmation e-mail to both the customer and store owner.{" "}
-                <a
-                  className="protLink"
-                  href="https://commercejsmerchproject.netlify.app/"
-                  target="_blank"
-                >
-                  <b>Click here to see the project on Netlify.</b>
-                </a>
-              </p>
-            </div>
-          </div>
+          
           <div className="project1">
             <div className="colB">
               <h1>Dating application layout</h1>
@@ -259,6 +200,66 @@ class Projects extends React.Component {
                 <source src={mvp} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
+            </div>
+          </div>
+<div className="project1">
+            <div className="colB">
+              <h1 id="porttitle">Portfolio</h1>
+              <br />
+              <br />
+              <h1>React.js amazon clone project</h1>
+              <p>
+                This is a I project made on my free time with the purpose of
+                improving my skills in React. The website is made to look like
+                Amazon's website. The website is built using hooks, Context API,
+                shopping basket functionality, React Link and Router for
+                seamless paging without refreshing the page and materials.ui.{" "}
+                <a
+                  className="protLink"
+                  href="https://clone-1a757.web.app/"
+                  target="_blank"
+                >
+                  <b>Click here to see the project on Firebase.</b>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div className="project1">
+            <div className="colB">
+              <h1>Fullstack Gallery from Flickr API</h1>
+              <p>
+                This project aimed for me to get some experience in back-end
+                applications as well a making a fullstack project. In this
+                project, I made a gallery from Flickr's REST API for photo
+                searching, uing only HTML, CSS, Vanilla JS!!!, Node.JS and
+                Express.js!{" "}
+                <a
+                  className="protLink"
+                  href="https://github.com/CalleErikberg/FullstackGallery/tree/master"
+                  target="_blank"
+                >
+                  <b>Click here to see the project on GitHub.</b>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div className="project1">
+            <div className="colB">
+              <h1>Commerce.js + Stipe Web application</h1>
+              <p>
+                This project aims to improve my skills in React, the usage of
+                APIs and Hooks. The website is made to look like an e-shop with
+                full mobile compatability. The website has fully integrated
+                cart, checkout, payment and confirmation functionality that will
+                send a confirmation e-mail to both the customer and store owner.{" "}
+                <a
+                  className="protLink"
+                  href="https://commercejsmerchproject.netlify.app/"
+                  target="_blank"
+                >
+                  <b>Click here to see the project on Netlify.</b>
+                </a>
+              </p>
             </div>
           </div>
           <div className="project1G">
