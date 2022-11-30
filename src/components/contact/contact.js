@@ -21,12 +21,6 @@ class Contact extends Component {
       <div className={this.state.class} id="contact">
         <h1 id="textme">Contact me!</h1>
         <div className="linkimg">
-          <a href="mailto:erik.calleberg@gmail.com">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/640px-Gmail_icon_%282020%29.svg.png"
-              alt="Mail"
-            />
-          </a>
           <a href="https://www.linkedin.com/in/erik-calleberg-610106159/">
             <img
               src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG38.png"
